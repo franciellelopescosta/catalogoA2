@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "nome": "Tênis Running Pro X1",
+    "categoria": "Calçados",
+    "preco": 299.90,
+    "precoAntigo": 399.90,
+    "descricao": "Tênis ideal para corridas longas, solado de amortecimento avançado e cabedal em mesh respirável.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&q=80"
+    ],
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "estoque": 15,
+    "destaque": true,
+    "tags": ["esporte", "corrida", "masculino"],
+    "linkSite": "https://seusite.com.br/produtos/tenis-running-pro-x1"
+  },
+  {
+    "id": 2,
+    "nome": "Mochila Urbana Slim",
+    "categoria": "Acessórios",
+    "preco": 189.90,
+    "precoAntigo": null,
+    "descricao": "Mochila com compartimento acolchoado para notebook até 15,6\", design minimalista e material resistente à água.",
+    "imagens": [
+      "https://res.cloudinary.com/im8gxyed/image/upload/v1791914556/336519-1200-auto.webp",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&q=80"
+    ],
+    "video": null,
+    "estoque": 30,
+    "destaque": false,
+    "tags": ["mochila", "notebook", "urbano"],
+    "linkSite": "https://seusite.com.br/produtos/mochila-urbana-slim"
+  },
+  {
+    "id": 3,
+    "nome": "Camiseta Dry Fit Premium",
+    "categoria": "Roupas",
+    "preco": 89.90,
+    "precoAntigo": 119.90,
+    "descricao": "Tecido de alta performance com tecnologia dry fit, ideal para treinos e atividades ao ar livre.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&q=80"
+    ],
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "estoque": 50,
+    "destaque": true,
+    "tags": ["camiseta", "treino", "fitness"],
+    "linkSite": "https://seusite.com.br/produtos/camiseta-dry-fit-premium"
+  },
+  {
+    "id": 4,
+    "nome": "Smartwatch FitBand 3",
+    "categoria": "Eletrônicos",
+    "preco": 549.00,
+    "precoAntigo": 699.00,
+    "descricao": "Monitor cardíaco, GPS integrado, resistente à água 5ATM, bateria de 7 dias e tela AMOLED.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&q=80"
+    ],
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "estoque": 8,
+    "destaque": true,
+    "tags": ["smartwatch", "fitness", "tecnologia"],
+    "linkSite": "https://seusite.com.br/produtos/smartwatch-fitband-3"
+  },
+  {
+    "id": 5,
+    "nome": "Garrafa Térmica Inox 1L",
+    "categoria": "Casa & Cozinha",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Mantém bebidas quentes por 12h e frias por 24h. Boca larga, tampa hermética e aço inox 304.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
+      "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600&q=80"
+    ],
+    "video": null,
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["garrafa", "térmica", "cozinha"],
+    "linkSite": "https://seusite.com.br/produtos/garrafa-termica-inox-1l"
+  },
+  {
+    "id": 6,
+    "nome": "Óculos de Sol Polarizado",
+    "categoria": "Acessórios",
+    "preco": 159.00,
+    "precoAntigo": 220.00,
+    "descricao": "Lentes polarizadas UV400, armação em acetato italiano, proteção total para atividades ao ar livre.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&q=80"
+    ],
+    "video": null,
+    "estoque": 22,
+    "destaque": false,
+    "tags": ["óculos", "praia", "moda"],
+    "linkSite": "https://seusite.com.br/produtos/oculos-sol-polarizado"
+  },
+  {
+    "id": 7,
+    "nome": "Fone Bluetooth Over-Ear",
+    "categoria": "Eletrônicos",
+    "preco": 349.90,
+    "precoAntigo": 449.90,
+    "descricao": "Driver 40mm, cancelamento ativo de ruído, 30h de bateria, conector USB-C e dobrável para transporte.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=600&q=80"
+    ],
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "estoque": 12,
+    "destaque": true,
+    "tags": ["fone", "bluetooth", "música"],
+    "linkSite": "https://seusite.com.br/produtos/fone-bluetooth-over-ear"
+  },
+  {
+    "id": 8,
+    "nome": "Shorts Academia Slim Fit",
+    "categoria": "Roupas",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Tecido 4 vias com elastano, bolso com zíper, modelagem slim que acompanha o movimento.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&q=80"
+    ],
+    "video": null,
+    "estoque": 40,
+    "destaque": false,
+    "tags": ["shorts", "academia", "treino"],
+    "linkSite": "https://seusite.com.br/produtos/shorts-academia-slim-fit"
+  },
+  {
+    "id": 9,
+    "nome": "Luminária de Mesa LED",
+    "categoria": "Casa & Cozinha",
+    "preco": 129.90,
+    "precoAntigo": 179.90,
+    "descricao": "Luz ajustável em 3 temperaturas, dimmer tátil, USB para carregamento, pescoço flexível 360°.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80"
+    ],
+    "video": null,
+    "estoque": 18,
+    "destaque": false,
+    "tags": ["luminária", "escritório", "home office"],
+    "linkSite": "https://seusite.com.br/produtos/luminaria-mesa-led"
+  },
+  {
+    "id": 10,
+    "nome": "Kit Halteres Emborrachados",
+    "categoria": "Esporte",
+    "preco": 219.90,
+    "precoAntigo": 280.00,
+    "descricao": "Par de halteres 5kg, revestimento emborrachado antiderrapante, ideal para treino em casa.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80"
+    ],
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "estoque": 7,
+    "destaque": true,
+    "tags": ["halteres", "musculação", "fitness"],
+    "linkSite": "https://seusite.com.br/produtos/kit-halteres-emborrachados"
+  },
+  {
+    "id": 11,
+    "nome": "Cadeira Gamer Pro 300",
+    "categoria": "Casa & Cozinha",
+    "preco": 1299.00,
+    "precoAntigo": 1599.00,
+    "descricao": "Encosto reclinável 180°, apoio lombar e cervical ajustáveis, revestimento em couro PU, suporta até 150kg.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80"
+    ],
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "estoque": 5,
+    "destaque": true,
+    "tags": ["cadeira", "gamer", "escritório"],
+    "linkSite": "https://seusite.com.br/produtos/cadeira-gamer-pro-300"
+  },
+  {
+    "id": 12,
+    "nome": "Perfume Aqua Di Silva 100ml",
+    "categoria": "Beleza",
+    "preco": 189.00,
+    "precoAntigo": 240.00,
+    "descricao": "Fragrância amadeirada aquática, notas de bergamota, cedro e âmbar. Fixação de 8 a 10 horas.",
+    "imagens": [
+      "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600&q=80",
+      "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600&q=80"
+    ],
+    "video": null,
+    "estoque": 25,
+    "destaque": false,
+    "tags": ["perfume", "masculino", "beleza"],
+    "linkSite": "https://seusite.com.br/produtos/perfume-aqua-di-silva"
+  }
+]

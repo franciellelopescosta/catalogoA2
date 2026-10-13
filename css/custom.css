@@ -1,0 +1,54 @@
+/* ── Scrollbar customizada ───────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #818cf8;
+}
+
+/* ── Transição suave do modal ────────────────────────────────────────────── */
+#modal {
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+#modal-conteudo {
+  animation: slideUp 0.25s ease;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Clamp de texto ──────────────────────────────────────────────────────── */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Imagem do modal com aspect-square consistente ───────────────────────── */
+#midia-principal iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Foco visível acessível ──────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* ── Print: esconde UI desnecessária ────────────────────────────────────── */
+/* O PDF é gerado em janela dedicada — nada precisa ser ocultado aqui */

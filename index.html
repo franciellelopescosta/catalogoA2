@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catálogo de produtos com filtros, busca e detalhes completos incluindo vídeos." />
+  <title>CatálogoA2 — Produtos</title>
+
+  <!-- TailwindCSS via CDN (sem build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Fonte Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS customizado -->
+  <link rel="stylesheet" href="./css/custom.css" />
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-900 antialiased">
+
+  <!-- ════════════════════════════════════════════════════════════
+       HEADER
+  ════════════════════════════════════════════════════════════ -->
+  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur-md border-b border-gray-200 shadow-sm">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 gap-4">
+
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-2.5 shrink-0" aria-label="Ir para a página inicial">
+          <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center shadow-sm">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+          </div>
+          <span class="text-lg font-extrabold text-gray-900 tracking-tight">CatálogoA2</span>
+        </a>
+
+        <!-- Barra de busca -->
+        <div class="flex-1 max-w-lg">
+          <div class="relative">
+            <label for="busca" class="sr-only">Buscar produtos</label>
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" aria-hidden="true"
+              fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+            <input
+              id="busca"
+              type="search"
+              placeholder="Buscar produtos, categorias, tags…"
+              class="w-full pl-10 pr-4 py-2.5 text-sm bg-gray-100 border border-transparent rounded-xl
+                     focus:bg-white focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100
+                     transition-all outline-none placeholder-gray-400"
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </div>
+        </div>
+
+        <!-- Ordenação -->
+        <div class="shrink-0">
+          <label for="ordenacao" class="sr-only">Ordenar produtos</label>
+          <select
+            id="ordenacao"
+            class="text-sm bg-gray-100 border border-transparent rounded-xl px-3 py-2.5
+                   focus:bg-white focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100
+                   outline-none cursor-pointer transition-all text-gray-700"
+          >
+            <option value="padrao">Padrão</option>
+            <option value="destaque">Em Destaque</option>
+            <option value="menor-preco">Menor Preço</option>
+            <option value="maior-preco">Maior Preço</option>
+            <option value="nome-az">Nome A→Z</option>
+          </select>
+        </div>
+
+        <!-- Botão baixar PDF -->
+        <button
+          id="btn-imprimir"
+          title="Baixar catálogo em PDF"
+          class="shrink-0 flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700
+                 text-white text-sm font-semibold px-4 py-2.5 rounded-xl
+                 transition-all duration-200 active:scale-95 shadow-sm"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          </svg>
+          <span class="hidden sm:inline">Baixar PDF</span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════════════════════════
+       HERO BANNER
+  ════════════════════════════════════════════════════════════ -->
+  <section
+    class="bg-gradient-to-br from-indigo-600 via-indigo-700 to-purple-700 text-white py-12 px-4"
+    aria-label="Chamada principal"
+  >
+    <div class="max-w-screen-xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight mb-2">
+          Os melhores produtos<br/>em um só lugar
+        </h1>
+        <p class="text-indigo-200 text-base sm:text-lg">
+          Qualidade garantida · Entrega rápida · Frete grátis acima de R$ 299
+        </p>
+      </div>
+      <div class="flex gap-6 text-center shrink-0">
+        <div class="bg-white/10 rounded-2xl px-6 py-4 backdrop-blur-sm">
+          <p class="text-2xl font-extrabold">400+</p>
+          <p class="text-indigo-200 text-sm">Produtos</p>
+        </div>
+        <div class="bg-white/10 rounded-2xl px-6 py-4 backdrop-blur-sm">
+          <p class="text-2xl font-extrabold">12</p>
+          <p class="text-indigo-200 text-sm">Categorias</p>
+        </div>
+        <div class="bg-white/10 rounded-2xl px-6 py-4 backdrop-blur-sm">
+          <p class="text-2xl font-extrabold">24h</p>
+          <p class="text-indigo-200 text-sm">Entrega</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aviso de preços -->
+  <div class="bg-amber-50 border-b border-amber-200" role="note" aria-label="Aviso sobre preços">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex items-center gap-3">
+      <svg class="w-4 h-4 text-amber-500 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 15a1 1 0 110-2 1 1 0 010 2zm1-4a1 1 0 01-2 0V7a1 1 0 012 0v6z"/>
+      </svg>
+      <p class="text-xs text-amber-800 leading-relaxed">
+        <strong>Preços informativos.</strong>
+        Os valores exibidos podem sofrer alterações sem aviso prévio.
+        Consulte o site para confirmar o preço atual antes de finalizar sua compra.
+      </p>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FILTROS DE CATEGORIA
+  ════════════════════════════════════════════════════════════ -->
+  <section id="filtros-section" class="bg-white border-b border-gray-100 sticky top-16 z-20 shadow-sm">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="overflow-x-auto scrollbar-hide py-3">
+        <nav
+          id="categorias-nav"
+          class="flex gap-2 min-w-max"
+          aria-label="Filtrar por categoria"
+          role="navigation"
+        >
+          <!-- Preenchido dinamicamente pelo JS -->
+          <div class="flex gap-2">
+            <div class="h-9 w-20 bg-gray-100 rounded-full animate-pulse"></div>
+            <div class="h-9 w-24 bg-gray-100 rounded-full animate-pulse"></div>
+            <div class="h-9 w-20 bg-gray-100 rounded-full animate-pulse"></div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       CONTEÚDO PRINCIPAL
+  ════════════════════════════════════════════════════════════ -->
+  <main class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+    <!-- Contador de resultados -->
+    <div class="flex items-center justify-between mb-6">
+      <p id="contador" class="text-sm text-gray-500" aria-live="polite" aria-atomic="true">
+        Carregando…
+      </p>
+    </div>
+
+    <!-- Grid de produtos -->
+    <div
+      id="grid-produtos"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 gap-4"
+      aria-label="Lista de produtos"
+      aria-live="polite"
+    >
+      <!-- Preenchido pelo JS -->
+    </div>
+
+    <!-- Paginação -->
+    <div
+      id="paginacao"
+      class="flex justify-center mt-10"
+      aria-label="Navegação de páginas"
+    >
+      <!-- Preenchido pelo JS -->
+    </div>
+
+  </main>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer class="bg-gray-900 text-gray-400 mt-16 py-10 px-4">
+    <div class="max-w-screen-xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 bg-indigo-500 rounded-md flex items-center justify-center">
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
+        </div>
+        <span class="text-white font-bold text-sm">CatálogoA2</span>
+      </div>
+      <p class="text-xs text-center">
+        © 2026 CatálogoA2. Todos os direitos reservados.
+      </p>
+      <div class="flex gap-4 text-xs">
+        <a href="#" class="hover:text-white transition-colors">Privacidade</a>
+        <a href="#" class="hover:text-white transition-colors">Termos</a>
+        <a href="#" class="hover:text-white transition-colors">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════════════════════════════
+       MODAL DE DETALHE DO PRODUTO
+  ════════════════════════════════════════════════════════════ -->
+  <div
+    id="modal"
+    class="hidden fixed inset-0 z-50 items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-titulo"
+  >
+    <!-- Painel do modal -->
+    <div
+      id="modal-conteudo"
+      class="bg-white rounded-2xl shadow-2xl w-full max-w-4xl relative overflow-hidden outline-none"
+      tabindex="-1"
+    >
+      <!-- Botão fechar -->
+      <button
+        id="btn-fechar-modal"
+        class="absolute top-4 right-4 z-10 w-9 h-9 flex items-center justify-center
+               rounded-full bg-gray-100 hover:bg-gray-200 text-gray-500 hover:text-gray-800
+               transition-all duration-200 shadow-sm"
+        aria-label="Fechar detalhes do produto"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <!-- Conteúdo dinâmico -->
+      <div class="p-6">
+        <!-- Preenchido pelo JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Script principal -->
+  <script src="./js/app.js"></script>
+</body>
+</html>

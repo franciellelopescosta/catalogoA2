@@ -794,6 +794,7 @@ function renderCardPrint(p) {
     : null;
   const semEstoque = p.estoque === 0;
   const img = p.imagens?.[0] || '';
+  const svgLink = '<svg width="10" height="10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg> Ver no Site';
 
   return `
     <div class="print-card ${semEstoque ? 'esgotado' : ''}">
@@ -818,7 +819,7 @@ function renderCardPrint(p) {
         </div>
         ${
           p.linkSite
-            ? `<span class="print-link">${p.linkSite.replace(/^https?:\/\//, '')}</span>`
+            ? `<a href="${p.linkSite}" class="${p.estoque === 0 ? 'print-link-esgotado' : 'print-link'}">${p.estoque === 0 ? 'Esgotado' : svgLink}</a>`
             : ''
         }
       </div>

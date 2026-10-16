@@ -1,22 +1,5 @@
 [
   {
-    "id": 1,
-    "nome": "Xícaras Aura 80ml",
-    "categoria": "Xícaras",
-    "preco": 99.90,
-    "precoAntigo":null,
-    "descricao": "Jogo De Xícaras Aura 80ml. Vidro preto canelado com friso dourado. Inclui 6 Xícaras (80ml) e 6 Pires",
-    "imagens": [
-      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938132/xicara-preta.png",
-      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938132/xicara-preta2.png"
-    ],
-    "video": "",
-    "estoque": 0,
-    "destaque": false,
-    "tags": ["xicara"],
-    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-aura-100ml-12-pecas-em-vidro-kehome"
-  },
-  {
     "id": 2,
     "nome": "Jogo De Xícaras Martiri 90ml",
     "categoria": "Xícaras",
@@ -96,27 +79,10 @@
       "https://cdn.awsli.com.br/3064/3064005/produto/403116612/45ff2199327b482ea4c62e1703b6b4ae-ptufegc5n8.webp"
     ],
     "video": "",
-    "estoque": 0,
+    "estoque": 1,
     "destaque": false,
     "tags": ["xicara", "oxford", "kehome", "borda dourada"],
     "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-oxford-12-pecas-100ml-em-vidro-kehome"
-  },
-  {
-    "id": 7,
-    "nome": "Jogo De Xícaras 190ml 12 Peças em Vidro Sanxia",
-    "categoria": "Xícaras",
-    "preco": 162.90,
-    "precoAntigo": null,
-    "descricao": "Jogo de Xícaras de Chá de Vidro Sanxia 190ml com 12 Peças (6 Xícaras e 6 Pires). Elegância e praticidade para o seu dia a dia. Compre com oferta!",
-    "imagens": [
-      "https://cdn.awsli.com.br/3064/3064005/produto/403117099/192c2caae1034cacaeb8b55de93a16ca-v23bsbfj57.webp",
-      "https://cdn.awsli.com.br/3064/3064005/produto/403117099/cc4813acdd2c460e8cdd354f23c49673-qigkt8g7u6.webp"
-    ],
-    "video": "",
-    "estoque": 1,
-    "destaque": false,
-    "tags": ["xicara", "sanxia", "cha", "vidro"],
-    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-190ml-12-pecas-em-vidro-sanxia"
   },
   {
     "id": 8,
@@ -393,24 +359,6 @@
     "destaque": false,
     "tags": ["escorredor", "pratos", "bambu", "fu xing"],
     "linkSite": "https://www.a2decor.com.br/escorredor-de-pratos-c-6-divisorias-282cm-em-bambu-fu-xing"
-  },
-  {
-    "id": 24,
-    "nome": "Caneca Imperial 190ml Em Cristal Lyor",
-    "categoria": "Canecas",
-    "preco": 16.90,
-    "precoAntigo": null,
-    "descricao": "Caneca de Cristal Imperial Lyor 190ml com Detalhes em Alto Relevo. Elegância, brilho e sofisticação para o seu cantinho do café. Garanta a sua!",
-    "imagens": [
-      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/2ae695644f8c458cabce1e0ec7a12026-xn0ozk7yit.png",
-      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/13f306695ff3485192f8aad01e40550b-1dgspiqeq2.webp",
-      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/3f8e41d73f4a4eaea5cb355ddc2e578a-91n9n7ezuw.webp"
-    ],
-    "video": "",
-    "estoque": 3,
-    "destaque": false,
-    "tags": ["caneca", "imperial", "cristal", "lyor"],
-    "linkSite": "https://www.a2decor.com.br/caneca-imperial-190ml-em-cristal-lyor"
   },
   {
     "id": 25,

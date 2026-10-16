@@ -1,6 +1,6 @@
 /**
  * CatálogoA2 - Sistema de catálogo de produtos
- * Suporta 400+ produtos com paginação, filtros e modal detalhado
+ * Suporta 100+ produtos com paginação, filtros e modal detalhado
  */
 
 const CONFIG = {
@@ -18,8 +18,7 @@ const state = {
   ordenacao: 'padrao',
 };
 
-const $ = (sel) => document.querySelector(sel);
-const $$ = (sel) => document.querySelectorAll(sel);
+const $ = (sel) => document.querySelector(sel); const $$ = (sel) => document.querySelectorAll(sel);
 
 // ─── Inicialização ────────────────────────────────────────────────────────────
 
@@ -41,17 +40,21 @@ async function init() {
 // ─── Categorias ───────────────────────────────────────────────────────────────
 
 function construirCategorias() {
-  const cats = ['todas', ...new Set(state.produtos.map((p) => p.categoria))];
   const nav = $('#categorias-nav');
+  if (!nav) return;
+
+  const cats = ['todas', ...new Set(state.produtos.map((p) => p.categoria))];
   nav.innerHTML = cats
     .map(
       (c) => `
     <button
       data-cat="${c}"
       class="cat-btn px-4 py-2 rounded-full text-sm font-medium transition-all duration-200
-             ${c === 'todas'
-               ? 'bg-indigo-600 text-white shadow-md'
-               : 'bg-white text-gray-600 border border-gray-200 hover:border-indigo-400 hover:text-indigo-600'}"
+             ${
+               c === 'todas'
+                 ? 'bg-indigo-600 text-white shadow-md'
+                 : 'bg-white text-gray-600 border border-gray-200 hover:border-indigo-400 hover:text-indigo-600'
+             }"
     >${c === 'todas' ? '🏷️ Todas' : c}</button>`
     )
     .join('');
@@ -70,17 +73,25 @@ function aplicarFiltros() {
     const t = state.termoBusca.toLowerCase();
     lista = lista.filter(
       (p) =>
-        p.nome.toLowerCase().includes(t) ||
-        p.descricao.toLowerCase().includes(t) ||
-        p.tags.some((tag) => tag.toLowerCase().includes(t))
+        p.nome?.toLowerCase().includes(t) ||
+        p.descricao?.toLowerCase().includes(t) ||
+        (Array.isArray(p.tags) && p.tags.some((tag) => tag.toLowerCase().includes(t)))
     );
   }
 
   switch (state.ordenacao) {
-    case 'menor-preco':  lista.sort((a, b) => a.preco - b.preco); break;
-    case 'maior-preco':  lista.sort((a, b) => b.preco - a.preco); break;
-    case 'destaque':     lista.sort((a, b) => Number(b.destaque) - Number(a.destaque)); break;
-    case 'nome-az':      lista.sort((a, b) => a.nome.localeCompare(b.nome)); break;
+    case 'menor-preco':
+      lista.sort((a, b) => a.preco - b.preco);
+      break;
+    case 'maior-preco':
+      lista.sort((a, b) => b.preco - a.preco);
+      break;
+    case 'destaque':
+      lista.sort((a, b) => Number(b.destaque) - Number(a.destaque));
+      break;
+    case 'nome-az':
+      lista.sort((a, b) => a.nome.localeCompare(b.nome));
+      break;
   }
 
   state.filtrados = lista;
@@ -94,9 +105,11 @@ function aplicarFiltros() {
 
 function renderizarGrid() {
   const inicio = (state.paginaAtual - 1) * CONFIG.PRODUTOS_POR_PAGINA;
-  const fim    = inicio + CONFIG.PRODUTOS_POR_PAGINA;
+  const fim = inicio + CONFIG.PRODUTOS_POR_PAGINA;
   const pagina = state.filtrados.slice(inicio, fim);
-  const grid   = $('#grid-produtos');
+  const grid = $('#grid-produtos');
+
+  if (!grid) return;
 
   if (pagina.length === 0) {
     grid.innerHTML = `
@@ -127,10 +140,11 @@ function renderizarGrid() {
 }
 
 function renderCard(p) {
-  const desconto  = p.precoAntigo
+  const desconto = p.precoAntigo
     ? Math.round(((p.precoAntigo - p.preco) / p.precoAntigo) * 100)
     : null;
   const semEstoque = p.estoque === 0;
+  const imagemPrincipal = p.imagens?.[0] || '';
 
   return `
   <article
@@ -140,23 +154,45 @@ function renderCard(p) {
   >
     <div class="relative overflow-hidden aspect-square bg-gray-50">
       <img
-        src="${p.imagens[0]}" alt="${p.nome}" loading="lazy"
-        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${semEstoque ? 'opacity-50' : ''}"
+        src="${imagemPrincipal}" alt="${p.nome}" loading="lazy"
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${
+          semEstoque ? 'opacity-50' : ''
+        }"
         onerror="this.src='https://placehold.co/400x400/f3f4f6/9ca3af?text=Sem+Imagem'"
       />
       <div class="absolute top-2 left-2 flex flex-col gap-1">
-        ${desconto   ? `<span class="bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">-${desconto}%</span>` : ''}
-        ${p.destaque ? `<span class="bg-amber-400 text-white text-xs font-bold px-2 py-0.5 rounded-full">⭐ Destaque</span>` : ''}
-        ${semEstoque ? `<span class="bg-gray-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">Esgotado</span>` : ''}
+        ${
+          desconto
+            ? `<span class="bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">-${desconto}%</span>`
+            : ''
+        }
+        ${
+          p.destaque
+            ? `<span class="bg-amber-400 text-white text-xs font-bold px-2 py-0.5 rounded-full">⭐ Destaque</span>`
+            : ''
+        }
+        ${
+          semEstoque
+            ? `<span class="bg-gray-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">Esgotado</span>`
+            : ''
+        }
       </div>
-      ${p.video ? `
+      ${
+        p.video
+          ? `
         <div class="absolute bottom-2 right-2 bg-red-600 rounded-full p-1.5 shadow-lg opacity-90">
           <svg class="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-        </div>` : ''}
-      ${p.imagens.length > 1 ? `
+        </div>`
+          : ''
+      }
+      ${
+        p.imagens?.length > 1
+          ? `
         <div class="absolute bottom-2 left-2 bg-black/50 text-white text-xs px-2 py-0.5 rounded-full backdrop-blur-sm">
           📷 ${p.imagens.length}
-        </div>` : ''}
+        </div>`
+          : ''
+      }
     </div>
 
     <div class="p-4 flex flex-col gap-2">
@@ -164,10 +200,14 @@ function renderCard(p) {
       <h3 class="font-semibold text-gray-800 text-sm leading-snug line-clamp-2 group-hover:text-indigo-600 transition-colors">
         ${p.nome}
       </h3>
-      <p class="text-xs text-gray-400 line-clamp-2 leading-relaxed">${p.descricao}</p>
+      <p class="text-xs text-gray-400 line-clamp-2 leading-relaxed">${p.descricao || ''}</p>
       <div class="mt-auto pt-2 flex items-end justify-between">
         <div>
-          ${p.precoAntigo ? `<p class="text-xs text-gray-400 line-through">R$ ${p.precoAntigo.toFixed(2).replace('.', ',')}</p>` : ''}
+          ${
+            p.precoAntigo
+              ? `<p class="text-xs text-gray-400 line-through">R$ ${p.precoAntigo.toFixed(2).replace('.', ',')}</p>`
+              : ''
+          }
           <p class="text-lg font-bold text-gray-900">R$ ${p.preco.toFixed(2).replace('.', ',')}</p>
         </div>
         <button
@@ -184,9 +224,13 @@ function renderCard(p) {
 
 function renderizarPaginacao() {
   const total = Math.ceil(state.filtrados.length / CONFIG.PRODUTOS_POR_PAGINA);
-  const pag   = $('#paginacao');
+  const pag = $('#paginacao');
 
-  if (total <= 1) { pag.innerHTML = ''; return; }
+  if (!pag) return;
+  if (total <= 1) {
+    pag.innerHTML = '';
+    return;
+  }
 
   const atual = state.paginaAtual;
   const pages = calcularJanelaPaginas(atual, total);
@@ -195,21 +239,35 @@ function renderizarPaginacao() {
     <nav class="flex items-center gap-1" aria-label="Paginação">
       <button data-page="${atual - 1}" ${atual === 1 ? 'disabled' : ''}
         class="pag-btn px-3 py-2 rounded-lg text-sm font-medium transition-all
-               ${atual === 1 ? 'text-gray-300 cursor-not-allowed' : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600'}">
+               ${
+                 atual === 1
+                   ? 'text-gray-300 cursor-not-allowed'
+                   : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600'
+               }">
         ← Anterior
       </button>
-      ${pages.map((p) =>
+      ${pages
+        .map((p) =>
           p === '...'
             ? `<span class="px-2 py-2 text-gray-400 text-sm">…</span>`
             : `<button data-page="${p}"
                  class="pag-btn w-9 h-9 rounded-lg text-sm font-medium transition-all
-                        ${p === atual ? 'bg-indigo-600 text-white shadow-md' : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600'}">
+                        ${
+                          p === atual
+                            ? 'bg-indigo-600 text-white shadow-md'
+                            : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600'
+                        }">
                  ${p}
                </button>`
-        ).join('')}
+        )
+        .join('')}
       <button data-page="${atual + 1}" ${atual === total ? 'disabled' : ''}
         class="pag-btn px-3 py-2 rounded-lg text-sm font-medium transition-all
-               ${atual === total ? 'text-gray-300 cursor-not-allowed' : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600'}">
+               ${
+                 atual === total
+                   ? 'text-gray-300 cursor-not-allowed'
+                   : 'text-gray-600 hover:bg-indigo-50 hover:text-indigo-600'
+               }">
         Próximo →
       </button>
     </nav>`;
@@ -228,33 +286,48 @@ function calcularJanelaPaginas(atual, total) {
 // ─── Modal de Produto ─────────────────────────────────────────────────────────
 
 function abrirModal(id) {
-  const produto = state.produtos.find((p) => p.id === id);
+  const produto = state.produtos.find((p) => String(p.id) === String(id));
   if (!produto) return;
 
-  const modal    = $('#modal');
+  const modal = $('#modal');
   const conteudo = $('#modal-conteudo');
+
+  if (!modal || !conteudo) return;
 
   const desconto = produto.precoAntigo
     ? Math.round(((produto.precoAntigo - produto.preco) / produto.precoAntigo) * 100)
     : null;
+
+  const economia = produto.precoAntigo ? produto.precoAntigo - produto.preco : 0;
+  const imagens = produto.imagens || [];
 
   conteudo.innerHTML = `
     <div class="flex flex-col lg:flex-row gap-6 max-h-[85vh] overflow-y-auto lg:overflow-hidden">
 
       <div class="lg:w-1/2 flex flex-col gap-3 lg:overflow-y-auto lg:max-h-[80vh] shrink-0">
         <div id="midia-principal" class="relative aspect-square rounded-xl overflow-hidden bg-gray-100">
-          <img src="${produto.imagens[0]}" alt="${produto.nome}" class="w-full h-full object-cover"
+          <img src="${imagens[0] || ''}" alt="${produto.nome}" class="w-full h-full object-cover"
                onerror="this.src='https://placehold.co/600x600/f3f4f6/9ca3af?text=Sem+Imagem'"/>
         </div>
         <div class="flex gap-2 flex-wrap">
-          ${produto.imagens.map((img, i) => `
+          ${imagens
+            .map(
+              (img, i) => `
             <button class="miniatura w-16 h-16 rounded-lg overflow-hidden border-2 transition-all
-                           ${i === 0 ? 'border-indigo-500 ring-2 ring-indigo-200' : 'border-gray-200 hover:border-indigo-400'}"
+                           ${
+                             i === 0
+                               ? 'border-indigo-500 ring-2 ring-indigo-200'
+                               : 'border-gray-200 hover:border-indigo-400'
+                           }"
                     data-index="${i}" data-tipo="imagem" data-src="${img}">
               <img src="${img}" alt="Imagem ${i + 1}" class="w-full h-full object-cover" loading="lazy"
                    onerror="this.src='https://placehold.co/64x64/f3f4f6/9ca3af?text=?'"/>
-            </button>`).join('')}
-          ${produto.video ? `
+            </button>`
+            )
+            .join('')}
+          ${
+            produto.video
+              ? `
             <button class="miniatura w-16 h-16 rounded-lg overflow-hidden border-2 border-gray-200
                            hover:border-red-400 relative bg-red-50 flex items-center justify-center transition-all"
                     data-tipo="video" data-src="${produto.video}">
@@ -262,7 +335,9 @@ function abrirModal(id) {
                 <path d="M8 5v14l11-7z"/>
               </svg>
               <span class="absolute bottom-0 inset-x-0 bg-red-500 text-white text-[9px] text-center py-0.5">▶ Video</span>
-            </button>` : ''}
+            </button>`
+              : ''
+          }
         </div>
       </div>
 
@@ -273,37 +348,60 @@ function abrirModal(id) {
         </div>
 
         <div class="flex flex-wrap gap-2">
-          ${produto.destaque ? `<span class="bg-amber-100 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full">⭐ Produto em Destaque</span>` : ''}
-          ${produto.estoque === 0
-            ? `<span class="bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">Sem estoque</span>`
-            : produto.estoque <= 5
-            ? `<span class="bg-orange-100 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">⚠️ Últimas ${produto.estoque} unidades</span>`
-            : `<span class="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">✓ Em estoque</span>`}
-          ${produto.video ? `<span class="bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full">▶ Com vídeo</span>` : ''}
+          ${
+            produto.destaque
+              ? `<span class="bg-amber-100 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full">⭐ Produto em Destaque</span>`
+              : ''
+          }
+          ${
+            produto.estoque === 0
+              ? `<span class="bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">Sem estoque</span>`
+              : produto.estoque <= 5
+              ? `<span class="bg-orange-100 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">⚠️ Últimas ${produto.estoque} unidades</span>`
+              : `<span class="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">✓ Em estoque</span>`
+          }
+          ${
+            produto.video
+              ? `<span class="bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full">▶ Com vídeo</span>`
+              : ''
+          }
         </div>
 
         <div class="bg-gray-50 rounded-xl p-4">
-          ${produto.precoAntigo ? `
+          ${
+            produto.precoAntigo
+              ? `
             <div class="flex items-center gap-2 mb-1">
               <span class="text-gray-400 text-sm line-through">R$ ${produto.precoAntigo.toFixed(2).replace('.', ',')}</span>
               <span class="bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">-${desconto}% OFF</span>
-            </div>` : ''}
+            </div>`
+              : ''
+          }
           <p class="text-3xl font-extrabold text-gray-900">R$ ${produto.preco.toFixed(2).replace('.', ',')}</p>
-          ${produto.precoAntigo ? `<p class="text-xs text-green-600 mt-1">Você economiza R$ ${(produto.precoAntigo - produto.preco).toFixed(2).replace('.', ',')}</p>` : ''}
+          ${
+            produto.precoAntigo
+              ? `<p class="text-xs text-green-600 mt-1">Você economiza R$ ${economia.toFixed(2).replace('.', ',')}</p>`
+              : ''
+          }
         </div>
 
         <div>
           <h3 class="text-sm font-semibold text-gray-700 mb-1">Descrição</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">${produto.descricao}</p>
+          <p class="text-sm text-gray-500 leading-relaxed">${produto.descricao || ''}</p>
         </div>
 
         <div class="flex flex-wrap gap-1.5">
-          ${produto.tags.map((t) => `<span class="bg-gray-100 text-gray-500 text-xs px-2.5 py-1 rounded-full">#${t}</span>`).join('')}
+          ${
+            Array.isArray(produto.tags)
+              ? produto.tags.map((t) => `<span class="bg-gray-100 text-gray-500 text-xs px-2.5 py-1 rounded-full">#${t}</span>`).join('')
+              : ''
+          }
         </div>
 
         <div class="mt-auto pt-2">
-          ${produto.linkSite
-            ? `<a href="${produto.linkSite}" target="_blank" rel="noopener noreferrer"
+          ${
+            produto.linkSite
+              ? `<a href="${produto.linkSite}" target="_blank" rel="noopener noreferrer"
                   class="flex items-center justify-center gap-2 w-full
                          bg-indigo-600 hover:bg-indigo-700 text-white font-semibold
                          py-3 px-6 rounded-xl transition-all duration-200 active:scale-95
@@ -311,11 +409,12 @@ function abrirModal(id) {
                   ${produto.estoque === 0 ? 'aria-disabled="true" tabindex="-1"' : ''}>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                 </svg>
                 ${produto.estoque === 0 ? 'Produto Esgotado' : 'Ver no Site'}
               </a>`
-            : `<p class="text-center text-sm text-gray-400 py-3">Link do produto não configurado</p>`}
+              : `<p class="text-center text-sm text-gray-400 py-3">Link do produto não configurado</p>`
+          }
         </div>
       </div>
     </div>`;
@@ -328,9 +427,11 @@ function abrirModal(id) {
         b.classList.add('border-gray-200');
       });
 
-      const tipo  = btn.dataset.tipo;
-      const src   = btn.dataset.src;
+      const tipo = btn.dataset.tipo;
+      const src = btn.dataset.src;
       const midia = conteudo.querySelector('#midia-principal');
+
+      if (!midia) return;
 
       if (tipo === 'video') {
         btn.classList.add('border-red-400');
@@ -354,7 +455,8 @@ function abrirModal(id) {
 }
 
 function fecharModal() {
-  const modal  = $('#modal');
+  const modal = $('#modal');
+  if (!modal) return;
   const iframe = modal.querySelector('iframe');
   if (iframe) iframe.src = '';
   modal.classList.add('hidden');
@@ -365,16 +467,25 @@ function fecharModal() {
 // ─── Utilitários de UI ────────────────────────────────────────────────────────
 
 function atualizarContador() {
-  const el    = $('#contador');
+  const el = $('#contador');
+  if (!el) return;
   const total = state.filtrados.length;
   const inicio = (state.paginaAtual - 1) * CONFIG.PRODUTOS_POR_PAGINA + 1;
-  const fim    = Math.min(state.paginaAtual * CONFIG.PRODUTOS_POR_PAGINA, total);
-  if (total === 0) { el.textContent = 'Nenhum produto'; return; }
+  const fim = Math.min(state.paginaAtual * CONFIG.PRODUTOS_POR_PAGINA, total);
+  if (total === 0) {
+    el.textContent = 'Nenhum produto';
+    return;
+  }
   el.textContent = `Exibindo ${inicio}–${fim} de ${total} produto${total > 1 ? 's' : ''}`;
 }
 
 function mostrarSkeleton() {
-  $('#grid-produtos').innerHTML = Array(8).fill(0).map(() => `
+  const grid = $('#grid-produtos');
+  if (!grid) return;
+  grid.innerHTML = Array(8)
+    .fill(0)
+    .map(
+      () => `
     <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 animate-pulse">
       <div class="aspect-square bg-gray-200"></div>
       <div class="p-4 space-y-2">
@@ -387,11 +498,15 @@ function mostrarSkeleton() {
           <div class="h-7 bg-gray-200 rounded w-1/4"></div>
         </div>
       </div>
-    </div>`).join('');
+    </div>`
+    )
+    .join('');
 }
 
 function mostrarErro(msg) {
-  $('#grid-produtos').innerHTML = `
+  const grid = $('#grid-produtos');
+  if (!grid) return;
+  grid.innerHTML = `
     <div class="col-span-full flex flex-col items-center justify-center py-24 text-red-400">
       <svg class="w-12 h-12 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -411,44 +526,53 @@ function imprimirCatalogo() {
   }
 
   const btn = $('#btn-imprimir');
-  btn.disabled = true;
-  btn.innerHTML = `
-    <svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
-      <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
-      <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
-    </svg>
-    <span class="hidden sm:inline">Preparando…</span>`;
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = `
+      <svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+      </svg>
+      <span class="hidden sm:inline">Preparando…</span>`;
+  }
 
-  const catLabel = state.categoriaSelecionada === 'todas'
-    ? 'Todos os Produtos'
-    : state.categoriaSelecionada;
+  const catLabel =
+    state.categoriaSelecionada === 'todas'
+      ? 'Todos os Produtos'
+      : state.categoriaSelecionada;
 
   const dataAtual = new Date().toLocaleDateString('pt-BR', {
-    day: '2-digit', month: 'long', year: 'numeric',
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
   });
 
-  // Remove iframe anterior se existir
-  const antigo = document.getElementById('print-frame');
-  if (antigo) antigo.remove();
+  try {
+    const antigo = document.getElementById('print-frame');
+    if (antigo) antigo.remove();
 
-  // Cria iframe oculto — não é bloqueado por popup blocker
-  const frame = document.createElement('iframe');
-  frame.id = 'print-frame';
-  frame.style.cssText = 'position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;border:0;';
-  document.body.appendChild(frame);
+    const frame = document.createElement('iframe');
+    frame.id = 'print-frame';
+    frame.style.cssText =
+      'position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;border:0;';
+    document.body.appendChild(frame);
 
-  const doc = frame.contentDocument || frame.contentWindow.document;
-  doc.open();
-  doc.write(montarHTMLImpressao(lista, catLabel, dataAtual));
-  doc.close();
+    const doc = frame.contentDocument || frame.contentWindow.document;
+    doc.open();
+    doc.write(montarHTMLImpressao(lista, catLabel, dataAtual));
+    doc.close();
 
-  frame.onload = () => {
-    setTimeout(() => {
-      frame.contentWindow.focus();
-      frame.contentWindow.print();
-      setTimeout(restaurarBotaoImprimir, 1000);
-    }, 900);
-  };
+    frame.onload = () => {
+      setTimeout(() => {
+        frame.contentWindow.focus();
+        frame.contentWindow.print();
+        setTimeout(restaurarBotaoImprimir, 1000);
+      }, 900);
+    };
+  } catch (err) {
+    console.error('Erro ao gerar documento de impressão:', err);
+    restaurarBotaoImprimir();
+  }
 }
 
 function restaurarBotaoImprimir() {
@@ -651,43 +775,52 @@ function gerarSecoesPrint(lista) {
     return acc;
   }, {});
 
-  return Object.entries(grupos).map(([cat, produtos]) => `
+  return Object.entries(grupos)
+    .map(
+      ([cat, produtos]) => `
     <div class="secao-header">
       <h2>${cat}</h2>
       <span class="secao-count">${produtos.length} produto${produtos.length !== 1 ? 's' : ''}</span>
     </div>
     <div class="print-grid">${produtos.map(renderCardPrint).join('')}</div>
-  `).join('');
+  `
+    )
+    .join('');
 }
 
 function renderCardPrint(p) {
-  const desconto   = p.precoAntigo
+  const desconto = p.precoAntigo
     ? Math.round(((p.precoAntigo - p.preco) / p.precoAntigo) * 100)
     : null;
   const semEstoque = p.estoque === 0;
+  const img = p.imagens?.[0] || '';
 
   return `
     <div class="print-card ${semEstoque ? 'esgotado' : ''}">
       <div class="print-card-img">
-        <img src="${p.imagens[0]}" alt="${p.nome}"
+        <img src="${img}" alt="${p.nome}"
              onerror="this.src='https://placehold.co/300x300/f3f4f6/9ca3af?text=Sem+Imagem'"/>
-        ${desconto   ? `<span class="badge-desconto">-${desconto}%</span>` : ''}
-        ${p.destaque ? `<span class="badge-destaque">★ Destaque</span>`   : ''}
-        ${semEstoque ? `<span class="badge-esgotado">Esgotado</span>`      : ''}
+        ${desconto ? `<span class="badge-desconto">-${desconto}%</span>` : ''}
+        ${p.destaque ? `<span class="badge-destaque">★ Destaque</span>` : ''}
+        ${semEstoque ? `<span class="badge-esgotado">Esgotado</span>` : ''}
       </div>
       <div class="print-card-body">
         <span class="print-categoria">${p.categoria}</span>
         <h3 class="print-nome">${p.nome}</h3>
-        <p class="print-desc">${p.descricao}</p>
+        <p class="print-desc">${p.descricao || ''}</p>
         <div class="print-preco-wrap">
-          ${p.precoAntigo
-            ? `<span class="print-preco-antigo">R$ ${p.precoAntigo.toFixed(2).replace('.', ',')}</span>`
-            : ''}
+          ${
+            p.precoAntigo
+              ? `<span class="print-preco-antigo">R$ ${p.precoAntigo.toFixed(2).replace('.', ',')}</span>`
+              : ''
+          }
           <span class="print-preco">R$ ${p.preco.toFixed(2).replace('.', ',')}</span>
         </div>
-        ${p.linkSite
-          ? `<span class="print-link">${p.linkSite.replace(/^https?:\/\//, '')}</span>`
-          : ''}
+        ${
+          p.linkSite
+            ? `<span class="print-link">${p.linkSite.replace(/^https?:\/\//, '')}</span>`
+            : ''
+        }
       </div>
     </div>`;
 }
@@ -696,8 +829,7 @@ function renderCardPrint(p) {
 
 let timerBusca;
 function registrarEventos() {
-
-  $('#busca').addEventListener('input', (e) => {
+  $('#busca')?.addEventListener('input', (e) => {
     clearTimeout(timerBusca);
     timerBusca = setTimeout(() => {
       state.termoBusca = e.target.value.trim();
@@ -705,15 +837,12 @@ function registrarEventos() {
     }, CONFIG.DELAY_BUSCA_MS);
   });
 
-  $('#ordenacao').addEventListener('change', (e) => {
+  $('#ordenacao')?.addEventListener('change', (e) => {
     state.ordenacao = e.target.value;
     aplicarFiltros();
   });
 
-  $('#categorias-nav').addEventListener('click', (e) => {
-    const btn = e.target.closest('.cat-btn');
-    if (!btn) return;
-    $$('.cat-btn').forEach((b) => {
+  $('#categorias-nav')?.addEventListener('click', (e) => { const btn = e.target.closest('.cat-btn'); if (!btn) return; $$('.cat-btn').forEach((b) => {
       b.classList.remove('bg-indigo-600', 'text-white', 'shadow-md');
       b.classList.add('bg-white', 'text-gray-600', 'border', 'border-gray-200');
     });
@@ -723,29 +852,32 @@ function registrarEventos() {
     aplicarFiltros();
   });
 
-  $('#grid-produtos').addEventListener('click', (e) => {
-    const btn  = e.target.closest('.ver-mais');
+  $('#grid-produtos')?.addEventListener('click', (e) => {
+    const btn = e.target.closest('.ver-mais');
     const card = e.target.closest('.produto-card');
     if (btn && !btn.disabled) {
       e.stopPropagation();
-      abrirModal(Number(btn.dataset.id));
+      abrirModal(btn.dataset.id);
     } else if (card) {
-      abrirModal(Number(card.dataset.id));
+      abrirModal(card.dataset.id);
     }
   });
 
-  $('#grid-produtos').addEventListener('keydown', (e) => {
+  $('#grid-produtos')?.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       const card = e.target.closest('.produto-card');
-      if (card) { e.preventDefault(); abrirModal(Number(card.dataset.id)); }
+      if (card) {
+        e.preventDefault();
+        abrirModal(card.dataset.id);
+      }
     }
   });
 
-  $('#paginacao').addEventListener('click', (e) => {
+  $('#paginacao')?.addEventListener('click', (e) => {
     const btn = e.target.closest('.pag-btn');
     if (!btn || btn.disabled) return;
     const page = Number(btn.dataset.page);
-    const max  = Math.ceil(state.filtrados.length / CONFIG.PRODUTOS_POR_PAGINA);
+    const max = Math.ceil(state.filtrados.length / CONFIG.PRODUTOS_POR_PAGINA);
     if (page < 1 || page > max) return;
     state.paginaAtual = page;
     renderizarGrid();
@@ -754,16 +886,17 @@ function registrarEventos() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  $('#modal').addEventListener('click', (e) => {
+  $('#modal')?.addEventListener('click', (e) => {
     if (e.target === e.currentTarget) fecharModal();
   });
-  $('#btn-fechar-modal').addEventListener('click', fecharModal);
+
+  $('#btn-fechar-modal')?.addEventListener('click', fecharModal);
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') fecharModal();
   });
 
-  $('#btn-imprimir').addEventListener('click', imprimirCatalogo);
+  $('#btn-imprimir')?.addEventListener('click', imprimirCatalogo);
 }
 
 // ─── Bootstrap ────────────────────────────────────────────────────────────────

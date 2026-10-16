@@ -1,206 +1,2615 @@
 [
   {
     "id": 1,
-    "nome": "Tênis Running Pro X1",
-    "categoria": "Calçados",
-    "preco": 299.90,
-    "precoAntigo": 399.90,
-    "descricao": "Tênis ideal para corridas longas, solado de amortecimento avançado e cabedal em mesh respirável.",
+    "nome": "Xícaras Aura 80ml",
+    "categoria": "Xícaras",
+    "preco": 99.90,
+    "precoAntigo":null,
+    "descricao": "Jogo De Xícaras Aura 80ml. Vidro preto canelado com friso dourado. Inclui 6 Xícaras (80ml) e 6 Pires",
     "imagens": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80",
-      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&q=80"
+      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938132/xicara-preta.png",
+      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938132/xicara-preta2.png"
     ],
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "estoque": 15,
-    "destaque": true,
-    "tags": ["esporte", "corrida", "masculino"],
-    "linkSite": "https://seusite.com.br/produtos/tenis-running-pro-x1"
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["xicara"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-aura-100ml-12-pecas-em-vidro-kehome"
   },
   {
     "id": 2,
-    "nome": "Mochila Urbana Slim",
-    "categoria": "Acessórios",
-    "preco": 189.90,
+    "nome": "Jogo De Xícaras Martiri 90ml",
+    "categoria": "Xícaras",
+    "preco": 68.90,
     "precoAntigo": null,
-    "descricao": "Mochila com compartimento acolchoado para notebook até 15,6\", design minimalista e material resistente à água.",
+    "descricao": "Vidro martelado com borda dourada. Inclui 4 Xícaras (90ml) e 4 Pires",
     "imagens": [
-      "https://res.cloudinary.com/im8gxyed/image/upload/v1791914556/336519-1200-auto.webp",
-      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&q=80"
+      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938554/d0d4b97b58f348d898fd3f16338d6c7d-rmbzbexpqt.png",
+      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938554/8010f69deb4c44e1858ee678048e54f8-osi0hqb2wx.png"
     ],
     "video": null,
-    "estoque": 30,
+    "estoque": 1,
     "destaque": false,
-    "tags": ["mochila", "notebook", "urbano"],
-    "linkSite": "https://seusite.com.br/produtos/mochila-urbana-slim"
+    "tags": ["xicara"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-de-cafe-vidro-preto-com-borda-dourada-8-pecas-90ml-martiri-wellmix"
   },
   {
     "id": 3,
     "nome": "Camiseta Dry Fit Premium",
-    "categoria": "Roupas",
-    "preco": 89.90,
-    "precoAntigo": 119.90,
+    "categoria": "Xícaras",
+    "preco": 18.90,
+    "precoAntigo": null,
     "descricao": "Tecido de alta performance com tecnologia dry fit, ideal para treinos e atividades ao ar livre.",
     "imagens": [
-      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&q=80"
+      "https://res.cloudinary.com/im8gxyed/image/upload/v1791938823/4bac1f44b28c4cdca77d5fcd297b6e8f-lrs46ie3q8.jpg"
     ],
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "estoque": 50,
-    "destaque": true,
-    "tags": ["camiseta", "treino", "fitness"],
-    "linkSite": "https://seusite.com.br/produtos/camiseta-dry-fit-premium"
+    "video": "",
+    "estoque": 6,
+    "destaque": false,
+    "tags": ["Canecas", "xicaras"],
+    "linkSite": "https://www.a2decor.com.br/caneca-de-vidro-ambar-190ml-linha-roma-kehome"
   },
   {
     "id": 4,
-    "nome": "Smartwatch FitBand 3",
-    "categoria": "Eletrônicos",
-    "preco": 549.00,
-    "precoAntigo": 699.00,
-    "descricao": "Monitor cardíaco, GPS integrado, resistente à água 5ATM, bateria de 7 dias e tela AMOLED.",
+    "nome": "Caneca Imperial 190ml Em Cristal Lyor",
+    "categoria": "Xícaras",
+    "preco": 16.90,
+    "precoAntigo":null,
+    "descricao": "01 Caneca de Cristal 190ml Imperial. Transforme o momento do seu café ou chá em um verdadeiro ritual de sofisticação! A Caneca de Cristal Imperial 190ml da Lyor une a transparência e o brilho do cristal ao design clássico, agregando requinte e elegância à sua mesa posta ou cantinho do café.",
     "imagens": [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
-      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/2ae695644f8c458cabce1e0ec7a12026-xn0ozk7yit.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/13f306695ff3485192f8aad01e40550b-1dgspiqeq2.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/3f8e41d73f4a4eaea5cb355ddc2e578a-91n9n7ezuw.webp"
     ],
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "estoque": 8,
+    "video": "",
+    "estoque": 3,
     "destaque": true,
-    "tags": ["smartwatch", "fitness", "tecnologia"],
-    "linkSite": "https://seusite.com.br/produtos/smartwatch-fitband-3"
+    "tags": ["Canecas", "xicaras"],
+    "linkSite": "https://www.a2decor.com.br/caneca-imperial-190ml-em-cristal-lyor"
   },
   {
     "id": 5,
-    "nome": "Garrafa Térmica Inox 1L",
-    "categoria": "Casa & Cozinha",
-    "preco": 79.90,
+    "nome": "Jogo De Xícaras 190ml 12 Peças em Vidro Sanxia",
+    "categoria": "Xícaras",
+    "preco": 162.90,
     "precoAntigo": null,
     "descricao": "Mantém bebidas quentes por 12h e frias por 24h. Boca larga, tampa hermética e aço inox 304.",
     "imagens": [
-      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117099/192c2caae1034cacaeb8b55de93a16ca-v23bsbfj57.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117099/cc4813acdd2c460e8cdd354f23c49673-qigkt8g7u6.webp"
     ],
     "video": null,
     "estoque": 0,
     "destaque": false,
-    "tags": ["garrafa", "térmica", "cozinha"],
-    "linkSite": "https://seusite.com.br/produtos/garrafa-termica-inox-1l"
+    "tags": ["Xícaras"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-190ml-12-pecas-em-vidro-sanxia"
   },
   {
     "id": 6,
-    "nome": "Óculos de Sol Polarizado",
-    "categoria": "Acessórios",
-    "preco": 159.00,
-    "precoAntigo": 220.00,
-    "descricao": "Lentes polarizadas UV400, armação em acetato italiano, proteção total para atividades ao ar livre.",
+    "nome": "Jogo de Xícaras Oxford 12 Peças 100ml em Vidro Kehome",
+    "categoria": "Xícaras",
+    "preco": 89.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras de Café Oxford com Borda de Ouro Kehome (12 Peças - 100ml). Elegância e sofisticação para servir sua mesa posta. Adquira já!",
     "imagens": [
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403116612/7ef87063481244158487d8e4e407f3ce-4vu58g9bqk.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403116612/45ff2199327b482ea4c62e1703b6b4ae-ptufegc5n8.webp"
     ],
-    "video": null,
-    "estoque": 22,
+    "video": "",
+    "estoque": 0,
     "destaque": false,
-    "tags": ["óculos", "praia", "moda"],
-    "linkSite": "https://seusite.com.br/produtos/oculos-sol-polarizado"
+    "tags": ["xicara", "oxford", "kehome", "borda dourada"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-oxford-12-pecas-100ml-em-vidro-kehome"
   },
   {
     "id": 7,
-    "nome": "Fone Bluetooth Over-Ear",
-    "categoria": "Eletrônicos",
-    "preco": 349.90,
-    "precoAntigo": 449.90,
-    "descricao": "Driver 40mm, cancelamento ativo de ruído, 30h de bateria, conector USB-C e dobrável para transporte.",
+    "nome": "Jogo De Xícaras 190ml 12 Peças em Vidro Sanxia",
+    "categoria": "Xícaras",
+    "preco": 162.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras de Chá de Vidro Sanxia 190ml com 12 Peças (6 Xícaras e 6 Pires). Elegância e praticidade para o seu dia a dia. Compre com oferta!",
     "imagens": [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
-      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117099/192c2caae1034cacaeb8b55de93a16ca-v23bsbfj57.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117099/cc4813acdd2c460e8cdd354f23c49673-qigkt8g7u6.webp"
     ],
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "estoque": 12,
-    "destaque": true,
-    "tags": ["fone", "bluetooth", "música"],
-    "linkSite": "https://seusite.com.br/produtos/fone-bluetooth-over-ear"
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["xicara", "sanxia", "cha", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-190ml-12-pecas-em-vidro-sanxia"
   },
   {
     "id": 8,
-    "nome": "Shorts Academia Slim Fit",
-    "categoria": "Roupas",
-    "preco": 69.90,
+    "nome": "Porta Cápsula Organizador 16x26,5cm em Metal Clink",
+    "categoria": "Organização",
+    "preco": 74.90,
     "precoAntigo": null,
-    "descricao": "Tecido 4 vias com elastano, bolso com zíper, modelagem slim que acompanha o movimento.",
+    "descricao": "Porta Cápsulas Organizador em Metal Clink 16x26,5cm. Praticidade e estilo para organizar o seu cantinho do café com elegância. Garanta o seu!",
     "imagens": [
-      "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117127/29c30e7d637c42cda29be59ac68573af-lbq70en8k3.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117127/b6d29489f5a74a1a82c16ab87c0bb4d5-yfl9jzider.webp"
     ],
-    "video": null,
-    "estoque": 40,
+    "video": "",
+    "estoque": 1,
     "destaque": false,
-    "tags": ["shorts", "academia", "treino"],
-    "linkSite": "https://seusite.com.br/produtos/shorts-academia-slim-fit"
+    "tags": ["porta capsulas", "cafe", "clink", "organizador"],
+    "linkSite": "https://www.a2decor.com.br/porta-capsula-organizador-16x265cm-em-metal-clink"
   },
   {
     "id": 9,
-    "nome": "Luminária de Mesa LED",
-    "categoria": "Casa & Cozinha",
-    "preco": 129.90,
-    "precoAntigo": 179.90,
-    "descricao": "Luz ajustável em 3 temperaturas, dimmer tátil, USB para carregamento, pescoço flexível 360°.",
+    "nome": "Jogo de Xícaras Mon Charmant 12 Peças 90ml em Porcelana Fullfit",
+    "categoria": "Xícaras",
+    "preco": 319.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras de Café Porcelana Mon Charmant Fullfit com Detalhes Dourados. 12 Peças (90ml). Charme e requinte para sua mesa posta. Compre já!",
     "imagens": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
-      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117193/e7870730bec1490ba5538b91002f7f92-lsqyx8sbfk.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117193/ac95f69008e44fe19b442a8b3e3aba88-54qdkw3bt6.webp"
     ],
-    "video": null,
-    "estoque": 18,
-    "destaque": false,
-    "tags": ["luminária", "escritório", "home office"],
-    "linkSite": "https://seusite.com.br/produtos/luminaria-mesa-led"
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["xicara", "porcelana", "mon charmant", "fullfit", "dourado"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-mon-charmant-12-pecas-90ml-em-porcelana-fullfit"
   },
   {
     "id": 10,
-    "nome": "Kit Halteres Emborrachados",
-    "categoria": "Esporte",
-    "preco": 219.90,
-    "precoAntigo": 280.00,
-    "descricao": "Par de halteres 5kg, revestimento emborrachado antiderrapante, ideal para treino em casa.",
+    "nome": "Suporte P/ Cápsula de Café 25x16cm em Metal Fratelli",
+    "categoria": "Organização",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Suporte Organizador para 42 Cápsulas de Café Fratelli em Metal (3 Compartimentos). Compacto (25x16cm) e prático para o seu cantinho do café. Confira!",
     "imagens": [
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117483/ad70bbe9aa314439ad96eb1bfd4dc6f3-u30wl2n9q8.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403117483/02910af1dbcd4e8da4cb371d3249feb7-uugiy7fegj.webp"
     ],
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "estoque": 7,
-    "destaque": true,
-    "tags": ["halteres", "musculação", "fitness"],
-    "linkSite": "https://seusite.com.br/produtos/kit-halteres-emborrachados"
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["suporte capsulas", "fratelli", "cafe", "organizador"],
+    "linkSite": "https://www.a2decor.com.br/suporte-p-capsula-de-cafe-25x16cm-em-metal-fratelli"
   },
   {
     "id": 11,
-    "nome": "Cadeira Gamer Pro 300",
-    "categoria": "Casa & Cozinha",
-    "preco": 1299.00,
-    "precoAntigo": 1599.00,
-    "descricao": "Encosto reclinável 180°, apoio lombar e cervical ajustáveis, revestimento em couro PU, suporta até 150kg.",
+    "nome": "Jogo De Copo 6 Peças 380ml Em Vidro Flashgoods",
+    "categoria": "Copos",
+    "preco": 87.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Copos de Vidro Flashgoods 380ml com 6 Peças (14x7cm). Design moderno e resistente para servir bebidas com estilo no dia a dia. Compre online!",
     "imagens": [
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
-      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403136784/26067bafedbd472387207720c88dbb8b-3ac5erbzvy.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403136784/795a187e04924295b8e2d09215c8fff2-dq8cvzqj01.webp"
     ],
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "estoque": 5,
-    "destaque": true,
-    "tags": ["cadeira", "gamer", "escritório"],
-    "linkSite": "https://seusite.com.br/produtos/cadeira-gamer-pro-300"
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["copo", "vidro", "flashgoods", "jogo de copos"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-copo-6-pecas-380ml-em-vidro-flashgoods"
   },
   {
     "id": 12,
-    "nome": "Perfume Aqua Di Silva 100ml",
-    "categoria": "Beleza",
-    "preco": 189.00,
-    "precoAntigo": 240.00,
-    "descricao": "Fragrância amadeirada aquática, notas de bergamota, cedro e âmbar. Fixação de 8 a 10 horas.",
+    "nome": "Kit Tigelas Design 07 Peças Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 699.90,
+    "precoAntigo": 855.30,
+    "descricao": "Jogo de Tigelas Tupperware Design Preto em Policarbonato com 7 Peças. Elegância e versatilidade para servir, armazenar e aquecer. Garanta o seu!",
     "imagens": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600&q=80",
-      "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600&q=80"
+      "https://cdn.awsli.com.br/3064/3064005/produto/403137126/2ec8a5afeb2344aa914187cb22953122-pok8uqucas.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403137126/aeaa10b745ba4e2d82bd93865191e345-i756ugmwfb.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403137126/728e874fec9e4088bfa9f01b192519b7-q2qybjvixy.jpg"
     ],
-    "video": null,
-    "estoque": 25,
+    "video": "",
+    "estoque": 1,
     "destaque": false,
-    "tags": ["perfume", "masculino", "beleza"],
-    "linkSite": "https://seusite.com.br/produtos/perfume-aqua-di-silva"
+    "tags": ["tigela", "tupperware", "policarbonato", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/kit-tigelas-design-07-pecas-tupperware"
+  },
+  {
+    "id": 13,
+    "nome": "Jogo De Taças Cristal 6 Peças 330ml Em Vidro Bela Flor",
+    "categoria": "Taças",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças de Vidro Bela Flor 330ml com 6 Peças (16,5cm). Elegância e sofisticação para servir água, suco ou vinho na sua mesa posta. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138412/97d3fe177c604b8c92013e78a4725417-jjtag1rs3w.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138412/f2abc505a4784047a6aa54455b6eccef-77a33326wu.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["tacas", "vidro", "bela flor", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-cristal-6-pecas-330ml-em-vidro-bela-flor"
+  },
+  {
+    "id": 14,
+    "nome": "Jogo De Copos Albany 6 Peças 400ml Em Vidro Hauskraft",
+    "categoria": "Copos",
+    "preco": 101.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Copos de Vidro Hauskraft 400ml com 6 Peças. Design moderno e versátil para servir suas bebidas favoritas com estilo. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138884/5a2817b8380e4e8b82451d4af94baf12-bxyrg7qpi8.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138884/b8713d88419f4ba5b1ad35694c549aaf-743i2q5gyo.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["copo", "albany", "hauskraft", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-copos-albany-6-pecas-400ml-em-vidro-hauskraft"
+  },
+  {
+    "id": 15,
+    "nome": "Jogo De Taças Tropical 6 Peças 320ml Em Vidro Hauskraft",
+    "categoria": "Taças",
+    "preco": 114.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças de Vidro Tropical Hauskraft 320ml para Água e Vinho (6 Peças). Elegância e versatilidade transparente para sua mesa posta. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138915/ced34294be7c4781a7a97de78c4ea6eb-9kbv8vdklg.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138915/f24e57de317d41c9b4515a38ea27cdc1-ntsgntri5q.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138915/e13a45b635be4c86b0653bccd58b454b-wk09hxcor9.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403138915/73c640b5907b45f8a30af1b41fe38906-10mpv7hcmj.webp"
+    ],
+    "video": "https://www.youtube.com/watch?v=TTFpAXa_ahs",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tacas", "tropical", "hauskraft", "agua", "vinho"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-tropical-6-pecas-320ml-em-vidro-hauskraft"
+  },
+  {
+    "id": 16,
+    "nome": "Porta Condimento Giratório 16 Peças Em Bambu Flashgoods",
+    "categoria": "Organização",
+    "preco": 254.90,
+    "precoAntigo": null,
+    "descricao": "Porta Condimentos Giratório de Bambu e Vidro Flashgoods com 16 Potes (~90ml) + Suporte. Praticidade e elegância para sua cozinha. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143396/5b64a9d5a4024bd3928debf5eb9aea7f-0zptmurptt.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["porta condimentos", "bambu", "flashgoods", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/porta-condimento-giratorio-16-pecas-em-bambu-flashgoods"
+  },
+  {
+    "id": 17,
+    "nome": "Jogo De Canecas Milão 6 Peças 90ml Em Vidro Kehome",
+    "categoria": "Canecas",
+    "preco": 49.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Canecas de Vidro Milão Kehome com 6 Peças (90ml). Elegância e praticidade para servir café e compor sua mesa posta. Garanta já o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143405/698aa18df6dc4094be44d78bac1ac0e4-hd4o7ibhbr.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143405/b362dec6f8d24eeeb637a86086c50ea3-dtoj9z1iz7.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["canecas", "milao", "kehome", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-canecas-milao-6-pecas-90ml-em-vidro-kehome"
+  },
+  {
+    "id": 18,
+    "nome": "Jogo De Forma P/ Cupcake 12 Peças 70ml Em Silicone Fu Xing",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 24.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Formas de Silicone para Cupcake Fu Xing com 12 Peças (70ml). Cores sortidas, práticas e antiaderentes para suas receitas. Compre online!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143651/b2bf05126c644687ac973c1e00afa59f-b8k4crxjbi.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143651/bd70a0eba8eb49229a37395fb84f1b63-d0df1qm5yt.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143651/18962ecef4854455bcdf090c5e21282f-gdovoqrc0c.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["forma", "cupcake", "silicone", "fu xing"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-forma-p-cupcake-12-pecas-70ml-em-silicone-fu-xing"
+  },
+  {
+    "id": 19,
+    "nome": "Jogo De Porta Condimentos 6 Peças Em Vidro Wellmix",
+    "categoria": "Organização",
+    "preco": 67.90,
+    "precoAntigo": null,
+    "descricao": "Jogo Porta Condimentos Vertical de Vidro Wellmix com 6 Peças (5 Potes e 1 Suporte). Organização e praticidade moderna para sua cozinha. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143660/e95f47c5dd8f49f297ab0084879a0a1b-11ejrecdut.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143660/9fa3b0cc844747a7b16077681467931c-c608kkmkgx.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["porta condimentos", "wellmix", "vidro", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-porta-condimentos-6-pecas-em-vidro-wellmix"
+  },
+  {
+    "id": 20,
+    "nome": "Jogo De Forma Airfryer Descartável 16cm Em Papel Fu Xing",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 19.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Formas Descartáveis de Papel para Airfryer Fu Xing Redonda 16cm (50 Peças). Praticidade para suas receitas sem sujar o cesto. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143665/56aada98a09d45c4a7cd7956a97d4570-1gny1zn75k.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143665/9dc7782dea48479aaeec01b0088fe3e9-8fu1fiy3sn.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["forma airfryer", "papel", "fu xing", "descartavel"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-forma-airfryer-descartavel-16cm-em-papel-fu-xing"
+  },
+  {
+    "id": 21,
+    "nome": "Jogo De Forma Airfryer Descartável 16x16cm Em Papel Fu Xing",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 19.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Formas Descartáveis de Papel para Airfryer Fu Xing Quadrada 16x16cm (50 Peças). Praticidade e facilidade sem sujar o cesto. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143683/567033612b9f4d08954cfeab77ea1764-la3fquca4s.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143683/64ff33b21e6f4d43ab8d3ff31ce27746-sq7l97kxu5.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["forma airfryer", "quadrada", "papel", "fu xing"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-forma-airfryer-descartavel-16x16cm-em-papel-fu-xing"
+  },
+  {
+    "id": 22,
+    "nome": "Jogo De Forma P/ Cupcake Coração 6 Peças 85ml Em Silicone Fu Xing",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 19.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Formas de Silicone Coração Fu Xing com 6 Peças (85ml). Cores sortidas, práticas e antiaderentes para suas sobremesas. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143692/2321b94d1a954a578b417e0ff20cef9c-dh3ww4ji0n.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143692/70fdb7552673439c9a399ff050d4195d-7qtrpvoiki.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143692/1191cc40211544bcaf0337eb88d120eb-1q16ih8v7y.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143692/91d7de2c3e124dc5b0cbd15094e14a1f-mbu81azw2i.webp"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["forma", "coracao", "cupcake", "silicone", "fu xing"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-forma-p-cupcake-coracao-6-pecas-85ml-em-silicone-fu-xing"
+  },
+  {
+    "id": 23,
+    "nome": "Escorredor De Pratos C/ 6 Divisórias 28,2cm Em Bambu Fu Xing",
+    "categoria": "Organização",
+    "preco": 29.90,
+    "precoAntigo": null,
+    "descricao": "Escorredor de Pratos em Bambu Fu Xing com 6 Divisórias (28,2x12,4cm). Design moderno, ecológico e resistente para sua cozinha. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143706/73e7fff8baaa42148ae5077ca3f0f5a4-6ypvnynllx.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["escorredor", "pratos", "bambu", "fu xing"],
+    "linkSite": "https://www.a2decor.com.br/escorredor-de-pratos-c-6-divisorias-282cm-em-bambu-fu-xing"
+  },
+  {
+    "id": 24,
+    "nome": "Caneca Imperial 190ml Em Cristal Lyor",
+    "categoria": "Canecas",
+    "preco": 16.90,
+    "precoAntigo": null,
+    "descricao": "Caneca de Cristal Imperial Lyor 190ml com Detalhes em Alto Relevo. Elegância, brilho e sofisticação para o seu cantinho do café. Garanta a sua!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/2ae695644f8c458cabce1e0ec7a12026-xn0ozk7yit.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/13f306695ff3485192f8aad01e40550b-1dgspiqeq2.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143718/3f8e41d73f4a4eaea5cb355ddc2e578a-91n9n7ezuw.webp"
+    ],
+    "video": "",
+    "estoque": 3,
+    "destaque": false,
+    "tags": ["caneca", "imperial", "cristal", "lyor"],
+    "linkSite": "https://www.a2decor.com.br/caneca-imperial-190ml-em-cristal-lyor"
+  },
+  {
+    "id": 25,
+    "nome": "Caneca Corações 200ml Em Vidro Lyor",
+    "categoria": "Canecas",
+    "preco": 24.90,
+    "precoAntigo": null,
+    "descricao": "Caneca de Vidro Corações Lyor 200ml. Design delicado e romântico para servir café, chá e deixar seus momentos mais especiais. Garanta a sua!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143728/1af5a4f5e1054c83b4ef3e1f86642455-cmj4g516r4.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["caneca", "coracoes", "vidro", "lyor"],
+    "linkSite": "https://www.a2decor.com.br/caneca-coracoes-200ml-em-vidro-lyor"
+  },
+  {
+    "id": 26,
+    "nome": "Caneca Florks 325ml Em Porcelana",
+    "categoria": "Canecas",
+    "preco": 54.90,
+    "precoAntigo": null,
+    "descricao": "Caneca Florks de Porcelana Duvem7 325ml. Diversão e estilo para saborear sua bebida favorita ou presentear. Compre já!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143735/4eff74a99ca843a0922c2e2a0df59298-2bco1a4s6m.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca", "florks", "porcelana", "presente"],
+    "linkSite": "https://www.a2decor.com.br/caneca-florks-325ml-em-porcelana"
+  },
+  {
+    "id": 27,
+    "nome": "Caneca Campainha Cerveja 400ml Em Vidro 3B Comércio",
+    "categoria": "Canecas",
+    "preco": 74.90,
+    "precoAntigo": null,
+    "descricao": "Caneca de Chopp com Campainha em Vidro 3B Comércio 400ml. Diversão garantida para tomar sua cerveja bem gelada ou presentear. Compre online!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143746/28b7294ba4a74259aebc5f128c39cf1e-p7znelomvm.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["caneca", "chopp", "campainha", "cerveja"],
+    "linkSite": "https://www.a2decor.com.br/caneca-campainha-cerveja-400ml-em-vidro-3b-comercio"
+  },
+  {
+    "id": 28,
+    "nome": "Caneca *Você* 300ml Em Porcelana",
+    "categoria": "Canecas",
+    "preco": 54.90,
+    "precoAntigo": null,
+    "descricao": "Caneca de Porcelana 300ml com Frase \"Você Faz Meu Coração Vibrar!\". Presente perfeito, cheio de afeto e estilo para quem você ama. Garanta a sua!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143759/71412b505c1847a09ba25f8e9997c60f-b3liuu4cwk.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca", "voce", "porcelana", "presente"],
+    "linkSite": "https://www.a2decor.com.br/caneca-voce-300ml-em-porcelana"
+  },
+  {
+    "id": 29,
+    "nome": "Caneca *Ao Seu Lado* 300ml Em Porcelana",
+    "categoria": "Canecas",
+    "preco": 54.90,
+    "precoAntigo": null,
+    "descricao": "Caneca de Porcelana 300ml Sude Comércio com Frase \"Ao Seu Lado Eu Sou Muito Feliz\". O presente ideal para demonstrar carinho e afeto. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143766/b2a9c44140cf40649dfee3258b040a26-4mducdwtrx.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca", "ao seu lado", "porcelana", "presente"],
+    "linkSite": "https://www.a2decor.com.br/caneca-ao-seu-lado-300ml-em-porcelana"
+  },
+  {
+    "id": 30,
+    "nome": "Caneca Gratidão Em Porcelana 330ml",
+    "categoria": "Canecas",
+    "preco": 54.90,
+    "precoAntigo": null,
+    "descricao": "Caneca Gratidão em Porcelana 330ml. Design inspirador e afetuoso para saborear sua bebida favorita ou presentear com carinho. Compre online!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143780/0cda5ec8103a47fa990964dd287dbc3e-hb130ljgf9.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca", "gratidao", "porcelana", "presente"],
+    "linkSite": "https://www.a2decor.com.br/caneca-gratidao-em-porcelana-330ml"
+  },
+  {
+    "id": 31,
+    "nome": "Saleiro Aço Inox E Vidro Unihome",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 19.90,
+    "precoAntigo": null,
+    "descricao": "Saleiro em Aço Inox e Vidro Unihome 1 Peça. Praticidade, durabilidade e design moderno para temperar seus pratos no dia a dia. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143788/6948c71783ce4d3482149525e3591d11-keiumzkfc6.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["saleiro", "inox", "vidro", "unihome"],
+    "linkSite": "https://www.a2decor.com.br/saleiro-aco-inox-e-vidro-unihome"
+  },
+  {
+    "id": 32,
+    "nome": "Açucareiro De Cristal Diamante 10cm Lyor",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 29.90,
+    "precoAntigo": null,
+    "descricao": "Açucareiro de Cristal Diamante 10cm Lyor. Código de barras: 7899768012171, Peso: 0.438KG.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143801/b93aeb4194d6412abd8be33c10426138-uca3h5asl5.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143801/cb4c8066ad264a5c8a5a1402ae014ad0-uw060m5qb5.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["acucareiro", "cristal", "diamante", "lyor"],
+    "linkSite": "https://www.a2decor.com.br/acucareiro-de-cristal-diamante-10cm-lyor"
+  },
+  {
+    "id": 33,
+    "nome": "Manteigueira Memory 16cm Em Vidro Hauskraft",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 44.90,
+    "precoAntigo": null,
+    "descricao": "Manteigueira de Vidro Linha Memory Hauskraft 16cm. Design clássico e sofisticado para conservar sua manteiga e compor a mesa posta. Garanta a sua!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143814/a5af98e2112b4d9abca7911d80fd27aa-urgpy8ebbc.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143814/142716575b27409393ca9ab61a1a3b15-s9ofyk1ch7.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["manteigueira", "memory", "hauskraft", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/manteigueira-memory-16cm-em-vidro-hauskraft"
+  },
+  {
+    "id": 34,
+    "nome": "Meleira Tulipa C/ Pegador 9x10cm Em Cristal Fullfit",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 39.90,
+    "precoAntigo": null,
+    "descricao": "Meleira de Cristal com Pegador Tulipa Fullfit 9x10cm. Sofisticação e praticidade para servir mel e compor sua mesa posta. Garanta a sua!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143823/f036b8db3dae463ab6f8f637f63e4caa-da6twuvbkk.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143823/c0fab8fdfaff44aca47d90bdc0c33f87-oxsgz19rgz.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403143823/21c6882fd04f446bba9363fcbffa10de-yfe9466w8l.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["meleira", "tulipa", "cristal", "fullfit"],
+    "linkSite": "https://www.a2decor.com.br/meleira-tulipa-c-pegador-9x10cm-em-cristal-fullfit"
+  },
+  {
+    "id": 35,
+    "nome": "Tigela Allegra Redonda 3,5Litros Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 239.90,
+    "precoAntigo": 255.90,
+    "descricao": "A linha Allegra foi desenvolvida para embelezar a sua mesa posta com design elegante e moderno. O exterior texturizado evita riscos e o interior liso facilita a limpeza. A tampa hermética e estanque auxilia na conservação dos alimentos por muito mais tempo.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176923/3b4c201356704b6082e1de87341938b9-1flomzwv3m.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176923/3f4dd8bda5834c4c895cf3525ed2e756-y9d8qqs7o5.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176923/d3023b9aa3f74165920b331c49d47c90-yps3z8yywg.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176923/e681ec5a4fd24d67ab039650ad22e4f2-kb8b1j5che.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176923/8547266016d446fa937b300699d69cf7-9rwisbjzad.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tigela", "allegra", "tupperware", "servir"],
+    "linkSite": "https://www.a2decor.com.br/tigela-allegra-redonda-35litros-tupperware"
+  },
+  {
+    "id": 36,
+    "nome": "Conjunto 2 Colheres Bailarina Aço Inox Oxford 30cm",
+    "categoria": "Bar e Coquetelaria",
+    "preco": 0.00,
+    "precoAntigo": null,
+    "descricao": "A linha de colher bailarina se torna essencial para o uso na coquetelaria e no preparo de drinks, sucos, refrescos e coquetéis diversos. Com design sofisticado, é utilizada para o preparo de drinks em copos estreitos e com muito gelo.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176969/88aed3229e5c4913891e7a8d97df94d7-7n1vqrr597.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176969/2b48719348b34e9cb8c96354fd54eb46-l67ss09fqk.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176969/d7ff9ba2dae445e4ab697c38edb342df-ef55mmg0x0.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176969/d7dcb2dbd76e4e0483328334706eaebe-bopv9wozmd.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403176969/bf0eeb1bd3464ab796037edeb01990a4-i32g4yakog.jpeg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["colher bailarina", "oxford", "coquetelaria", "inox"],
+    "linkSite": "https://www.a2decor.com.br/conjunto-2-colheres-bailarina-aco-inox-oxford-30cm"
+  },
+  {
+    "id": 37,
+    "nome": "Jogo c/ 4 Pratos Pearl Wolff 28cm Âmbar",
+    "categoria": "Pratos",
+    "preco": 299.90,
+    "precoAntigo": 365.90,
+    "descricao": "O Prato Cristal Pearl Wolff de 28 cm é uma peça elegante e versátil que vai trazer sofisticação à sua mesa. Com suas bordas em bolinhas delicadas, ele é ideal para compor uma mesa requintada e cheia de charme.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403177027/b5e6ec3b9d0647a584a8d6d150e5284b-w3ooxqrczb.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403177027/d2aa46e5ce1e461fb5ecb3e42a22d469-yon22eytc2.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403177027/8369c884a1a240c194f9d5dc3542d5e9-9xuvj70xqv.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403177027/da63068a982842acba778ac574353db0-1rpdsk5qd2.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403177027/9498c178ea2247c6a67486e39ca9344b-eclhhyzg56.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["prato", "pearl", "wolff", "ambar", "cristal"],
+    "linkSite": "https://www.a2decor.com.br/jogo-c-4-pratos-pearl-wolff-28cm-ambar"
+  },
+  {
+    "id": 40,
+    "nome": "Centro de Mesa de Vidro Italy Âmbar",
+    "categoria": "Decoração",
+    "preco": 269.90,
+    "precoAntigo": 299.90,
+    "descricao": "Adicione um toque de sofisticação e estilo à sua decoração com o centro de mesa Italy Murano em vidro tom âmbar.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403180441/d0d3ad7082444581a6a9f60985214812-ua3ru2sfrg.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403180441/1bb427ab7e61451380810581b8cf6ff4-9o840vsvza.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403180441/a81c2871f6c647c090ec339942b32469-xowqe3icho.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403180441/b754ccdfa6484c9ea684af26116f8e43-2giwe6gb1q.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403180441/a74164677bfd40cbaa0ed8de2f6fbe27-0cizo7o64z.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["centro de mesa", "italy", "ambar", "wolff", "decoracao"],
+    "linkSite": "https://www.a2decor.com.br/centro-de-mesa-de-vidro-italy-ambar"
+  },
+  {
+    "id": 41,
+    "nome": "Suporte para 2 Taças de Madeira Teca",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 52.90,
+    "precoAntigo": 59.90,
+    "descricao": "Eleve o romance e a elegância em suas ocasiões especiais com nosso suporte para 2 taças em madeira teca, a maneira perfeita de brindar ao amor e à felicidade.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181160/d936e3346de24b09a216f36baa97ac6a-0v6b9muv4r.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181160/42ddbeed7c4949e09e6dd26e967f43a7-flsk8g0ufv.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181160/b9666b9b7de04a92a8562131de58ef47-olvxtc957p.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181160/05b74dc8a90b44d6912bacde37e36752-sp6wniaho0.jpeg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["suporte taca", "madeira teca", "vinho", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/suporte-para-2-tacas-de-madeira-teca"
+  },
+  {
+    "id": 42,
+    "nome": "Ultra pro Cosmos Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 349.90,
+    "precoAntigo": 400.90,
+    "descricao": "Forma Ultra Pro Retangular Tupperware - Para Bolos, Brownies e Tortas salgadas e doces. Produto novo, 100% original Tupperware.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181517/78d78f9842f54b8b9a2c4b4157e40a64-494mpzmpps.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181517/03c04cdad34c4103b1ed02a0f20bd5ed-6h2se0p9l6.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181517/f5d79043d637476cbf8da54c8c940667-7gbms69k9q.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181517/00c61c64cc1b43b799c548903c88aa4b-yv2opy0mj7.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403181517/043de6d235e94626ab89e53153d3afb6-btr52rgjh6.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["ultra pro", "tupperware", "forma", "assadeira"],
+    "linkSite": "https://www.a2decor.com.br/ultra-pro-cosmos-tupperware"
+  },
+  {
+    "id": 43,
+    "nome": "Kit Saleiro e Pimenteiro",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 39.90,
+    "precoAntigo": null,
+    "descricao": "Tempere com estilo! Kit Saleiro e Pimenteiro em Vidro e Aço Inox 11cm (2 Peças). Design moderno com visor transparente.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403185288/9bbcf5fb11df40e6915f1a38dca480e9-u0fsl4oj3v.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403185288/c38c02a9243d4d83b222b247a9b50de1-6ls3sxuphc.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403185288/42ca858f726b42cc90593a282865141d-llrrgxnu4i.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403185288/75ad770222fa443796c90b058cefb1bb-pxl6zcip10.jpeg"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["saleiro", "pimenteiro", "unyhome", "inox"],
+    "linkSite": "https://www.a2decor.com.br/kit-saleiro-e-pimenteiro"
+  },
+  {
+    "id": 44,
+    "nome": "Conjunto Foundue em Cerâmica",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 89.90,
+    "precoAntigo": 109.90,
+    "descricao": "Design clássico e sofisticado, ideal para ocasiões especiais, proporcionando experiências deliciosas e únicas. Produto feito em cerâmica e suporte em metal, acompanha uma vela.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403190175/99191250377246deab8382d3f510c430-x3pu3ddyvj.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403190175/c3c164c0042d4de9b2faaadc88c6810e-i5b4qm7iok.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403190175/247299f81b424909b3a9684da3b933bc-9nutcb5k3u.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403190175/edaff0e97aa9456991c3889cba1e46a4-bksxqnh7a6.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["fondue", "ceramica", "hauskraft", "sobremesa"],
+    "linkSite": "https://www.a2decor.com.br/conjunto-foundue-em-ceramica"
+  },
+  {
+    "id": 45,
+    "nome": "Jarra Super Luxo 2 Litros Tupperware Black",
+    "categoria": "Jarras",
+    "preco": 219.90,
+    "precoAntigo": 287.90,
+    "descricao": "A Jarra Super Luxo 2 Litros Black traz elegância e luxo em um único produto. Produzida em policarbonato, esse produto traz durabilidade e beleza. Com design exclusivo e alta capacidade, é perfeita para armazenar e servir.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403192177/9b0f243353104d7fa221c70d9a823aec-ykm158j1vn.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["jarra", "super luxo", "tupperware", "policarbonato"],
+    "linkSite": "https://www.a2decor.com.br/jarra-super-luxo-2-litros-tupperware-black"
+  },
+  {
+    "id": 46,
+    "nome": "Kit Tigela Criativa 5 Peças Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 599.90,
+    "precoAntigo": 684.50,
+    "descricao": "A Linha Criativa foi desenvolvida para facilitar a preparação de massas, recheios, farofas e muito mais! A alça lateral com encaixe perfeito para o dedo polegar fornece o controle total da peça e mais facilidade para misturar os ingredientes.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403192184/1e85f8a246444927aed5c06345d54f86-izq82dtux4.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403192184/53cdbace5d7146a88703a66f76523976-q9yn1bj3fp.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403192184/a05fdcbd1bb940a1b1600f232e419477-yb67sj4691.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403192184/5bf358e304754288b44da042d6419a74-c404obei4r.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tigela", "criativa", "tupperware", "preparo"],
+    "linkSite": "https://www.a2decor.com.br/kit-tigela-criativa-5-pecas-tupperware"
+  },
+  {
+    "id": 47,
+    "nome": "Jarra de Vidro Canelado 1,2L com Tampa de Bambu 8,5x25cm — Fu Xing",
+    "categoria": "Jarras",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Jarra de Vidro com Tampa de Bambu Fu Xing 1,2L (8,5x25cm). Design moderno e sofisticado para servir água, sucos e bebidas. Garanta a sua!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403200061/c883e9036f484664a50532d4fba9aafd-005bw0zv6y.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403200061/26c1ae3bc07140b6bdf84db58bb63056-0vu17chgpb.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403200061/0e2c86f4389a4c6ab04c99a4e3470b8f-ruh7mr1hsr.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403200061/5e4f95440deb4f4f98f952836b34ab11-090rdoapvl.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["jarra", "vidro canelado", "bambu", "fu xing"],
+    "linkSite": "https://www.a2decor.com.br/jarra-de-vidro-canelado-12l-com-tampa-de-bambu-85x25cm-fu-xing"
+  },
+  {
+    "id": 48,
+    "nome": "Açucareiro C/ Colher Butterfly 8x9,5cm em Cristal Lyor",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 39.90,
+    "precoAntigo": null,
+    "descricao": "Açucareiro de Vidro com Colher Butterfly Lyor (8x9,5cm). Charme, delicadeza e praticidade para compor seu cantinho do café. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403200107/75fc7965c7734f1fafd31f4ded09ca9d-b7yokpsuta.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403200107/6721815fc7e645458fdfc98d9292caee-hr12soa8zb.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["acucareiro", "butterfly", "cristal", "lyor"],
+    "linkSite": "https://www.a2decor.com.br/acucareiro-c-colher-butterfly-8x95cm-em-cristal-lyor"
+  },
+  {
+    "id": 49,
+    "nome": "Jogo De Taças Sobremesa Vidro 6 Peças 200ml",
+    "categoria": "Taças",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças para Sobremesa em Vidro com 6 Peças (200ml). Elegância e charme para servir doces, sorvetes e encantar na mesa posta. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205423/17d7e3d672f64e0b9eb73e2ad8ca7dd6-hr6l3zqkbq.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205423/e9abd7f6df4a4d4ca64cd35fd5ccc0a1-f1vd33ujs5.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205423/e461a98c25e24e72a9370b5ec345d37d-jo7h6qjj5e.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205423/b6b5e82c77d74f9fbbbf117b613be139-ygoylx8mjg.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205423/c6ced0a8f0b548d9a3144c5d9b61fb8d-cow5l9f8do.jpeg"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["tacas", "sobremesa", "vidro", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/jg-taca-6pc-200ml-sobremesa-vdr"
+  },
+  {
+    "id": 50,
+    "nome": "Fruteira de Mesa C/ 2 Andares 33cm em Plastico Dolce Home-Preto",
+    "categoria": "Organização",
+    "preco": 84.90,
+    "precoAntigo": null,
+    "descricao": "Fruteira de Mesa com 2 Andares 33cm em Plástico Dolce Home Preto. Design moderno, praticidade e otimização de espaço para sua cozinha.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205464/8950441f9bf4493ea0173f15d13f83a9-fb59l3xe7p.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205464/31705c65ffcd4c42b5b7ea091c975d6b-adoo8nt0qn.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205464/17de7b1d93164763b933479c4d4ac28f-jxkgku8s5g.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205464/324e58d423c74bc88a25dec64eebdf57-qwqa5hmel0.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205464/be1eb6c426094bc9ae4646089ec39691-0ew0qreg5d.jpeg"
+    ],
+    "video": "https://www.youtube.com/watch?v=IkGiyyF5kUY",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["fruteira", "dolce home", "cozinha", "organizador"],
+    "linkSite": "https://www.a2decor.com.br/fruteira-de-mesa-c-2-andares-33cm-em-plastico-dolce-home-preto"
+  },
+  {
+    "id": 51,
+    "nome": "Fone de Ouvido Xiaomi Redmi Buds 6 Play Bluetooth M2420E1 Preto",
+    "categoria": "Eletrônicos",
+    "preco": 149.90,
+    "precoAntigo": null,
+    "descricao": "Fone de Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Bluetooth 5.4 Preto. Bateria de até 36h, redução de ruído por IA e proteção IPX4 para sua rotina. Garanta o seu!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205682/a28bd7f86d7b47e0aa87fd6ff3651926-ckbdnnm7i0.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205682/93306c2ebd304dc78e1d89f605664cd4-n3l534odub.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205682/539452ef15fa4e7faef9bfe2e4bde032-acnqp8a8el.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["fone bluetooth", "xiaomi", "redmi buds", "eletronicos"],
+    "linkSite": "https://www.a2decor.com.br/fone-de-ouvido-xiaomi-redmi-buds-6-play-bluetooth-m2420e1-preto"
+  },
+  {
+    "id": 52,
+    "nome": "Fone de Ouvido Xiaomi Redmi Buds 8 Active Bluetooth M2537E1 Black",
+    "categoria": "Eletrônicos",
+    "preco": 199.90,
+    "precoAntigo": null,
+    "descricao": "Fone de Ouvido Sem Fio Xiaomi Redmi Buds 8 Active Bluetooth 5.4 Preto. Bateria de até 37h, drivers de 14,2mm e redução de ruído por IA. Confira!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403205754/7b711736b71b48aba3c61ad36e5ff5d8-wkkyfnkihu.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["fone bluetooth", "xiaomi", "redmi buds", "eletronicos"],
+    "linkSite": "https://www.a2decor.com.br/fone-de-ouvido-xiaomi-redmi-buds-8-active-bluetooth-m2537e1-black"
+  },
+  {
+    "id": 54,
+    "nome": "Big Cake Redondo Receitas Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 199.90,
+    "precoAntigo": 231.90,
+    "descricao": "Big Cake Receitas Tupperware: Proteja e transporte seus bolos com praticidade! Ideal para armazenar, conservar e levar suas receitas com segurança e estilo!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403240627/d86839e68098497bb5374dcce8292c26-s28huyqabz.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403240627/0528571db3c447cbaac32ec98380cbbc-kjhxykowzs.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403240627/c13995b29e5048738804bda5e574a9f6-e0gjycv2ap.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403240627/86e3734e982247fbbecab8cd2fe065cd-tmtm4jvq6n.jpg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["big cake", "tupperware", "boleira", "transporte"],
+    "linkSite": "https://www.a2decor.com.br/big-cake-redondo-receitas-tupperware"
+  },
+  {
+    "id": 55,
+    "nome": "Escorredor de Louças Modular Tupperware",
+    "categoria": "Organização",
+    "preco": 369.90,
+    "precoAntigo": 406.90,
+    "descricao": "Escorredor de Louça Modular Tupperware: organiza e seca sua louça com praticidade e design moderno. Eficiência e estilo na sua cozinha!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403243176/cb1723f77b66488a8672db072a6f12ee-gp6v3cqcbv.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403243176/8836cbd52ecd4acd942e2f0813473909-8x0of55paf.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["escorredor", "modular", "tupperware", "organizador"],
+    "linkSite": "https://www.a2decor.com.br/escorredor-de-loucas-modular-tupperware"
+  },
+  {
+    "id": 56,
+    "nome": "Copo Térmico Big T Com Canudo 1,1L Rosa",
+    "categoria": "Copos",
+    "preco": 379.90,
+    "precoAntigo": 399.90,
+    "descricao": "Copo Térmico Big T Com Canudo 1,1L Rosa. Mantém sua bebida na temperatura ideal por muito mais tempo com design moderno e grande capacidade.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278478/83e385b9e8b343bb884f0167c94e04c4-h1rlcobtci.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278478/d85a0d1605c847edab5143d13ced64d2-3jen0rf0s7.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278478/c78a81dddb0545f1a581f297494b54cf-ql26fgkhxq.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278478/dd97d9ade8a7490999fba5cf19986258-vcl5dgghz5.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278478/3063de138b494b7394ea82b04e498260-m5nr06vsz5.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["copo termico", "big t", "canudo", "rosa"],
+    "linkSite": "https://www.a2decor.com.br/copo-termico-big-t-com-canudo-11l-rosa"
+  },
+  {
+    "id": 57,
+    "nome": "Copo Térmico Big T Com Canudo 630ml Rosa Tupperware",
+    "categoria": "Copos",
+    "preco": 279.90,
+    "precoAntigo": 299.90,
+    "descricao": "Copo Térmico Big T Com Canudo 630ml Rosa Tupperware. Prático, elegante e eficiente para manter bebidas quentes ou geladas.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278507/61e47091d8214eff856fdfd8f8723caf-7slyypjsxq.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278507/848d470296324a54bc158a1ed3e47752-06s04yzu64.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278507/383ea36ca50e45f9901b863c1a0052f2-lm9l050ihu.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278507/23d6849d03524165a054661666e26452-aq5eo3khtt.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403278507/ba272b0c389a4a7b9ee6d9abf538b0d5-taz4cla7kw.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["copo termico", "big t", "tupperware", "rosa"],
+    "linkSite": "https://www.a2decor.com.br/copo-termico-big-t-com-canudo-630ml-rosa"
+  },
+  {
+    "id": 58,
+    "nome": "Wow Pop - Pipoqueira de Micro-ondas Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 259.90,
+    "precoAntigo": null,
+    "descricao": "Transforme suas noites de cinema em um espetáculo com a Pipoqueira de Micro-ondas Tupperware. Prepare pipocas de forma prática, saudável e sem óleo.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325298/b991ba91116f4c558cc7675159a270c6-73otbwp3sd.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325298/8e9c855f61ad4ac9893255aff05b0581-z1ih538kp4.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325298/e79c9c65d4784fa69cebee9d5a08e8ff-lrlyc2j3st.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325298/142e98ebd6494ac3b4f421dade8dd4bd-wx5onvnvk5.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325298/041e2d82769d4ddf8976eb474436c3f7-hv8apc9dsr.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["wow pop", "pipoqueira", "tupperware", "micro-ondas"],
+    "linkSite": "https://www.a2decor.com.br/wow-pop-pipoqueira-de-micro-ondas"
+  },
+  {
+    "id": 59,
+    "nome": "Caneca Térmica em Inox com Tampa 400Ml Tupperware",
+    "categoria": "Canecas",
+    "preco": 299.90,
+    "precoAntigo": 349.90,
+    "descricao": "Caneca Térmica em Inox com Tampa 400ml Tupperware. Excelente retenção de temperatura para manter sua bebida perfeita em qualquer lugar.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325534/f41ea53dc9764ebe83c55a0ba0758c03-tl6v7x8cf3.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325534/0a14f1a7c3df4cb294e8313041caac52-e1gpgfriku.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325534/11f04680e8854f9bb1025d6a935acbfb-ovaiu2kofx.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325534/2655162bb50d476b84be7fe43ad6401f-tamnpjvdi7.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325534/8cdb339b017247f6836f97d1435e505d-977mmhs3vr.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca termica", "inox", "tupperware"],
+    "linkSite": "https://www.a2decor.com.br/caneca-termica-em-inox-com-tampa-400ml-tupperware"
+  },
+  {
+    "id": 60,
+    "nome": "Garrafa Térmica 520ml Tupperware",
+    "categoria": "Garrafas",
+    "preco": 479.90,
+    "precoAntigo": null,
+    "descricao": "Garrafa Térmica 520ml Tupperware. Mantém líquidos aquecidos ou gelados por horas com altíssima qualidade de vedação.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403325812/d1c09b8a171a4dd39202934f95d27aac-22wabxm4op.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["garrafa termica", "tupperware", "bebidas"],
+    "linkSite": "https://www.a2decor.com.br/garrafa-tupp-termica-520ml-tupperware"
+  },
+  {
+    "id": 61,
+    "nome": "Jogo 04 Anéis para Guardanapo de Ferro Niquelado Wolff",
+    "categoria": "Mesa Posta",
+    "preco": 79.90,
+    "precoAntigo": 119.90,
+    "descricao": "Jogo com 4 Anéis para Guardanapo em Ferro Niquelado da Wolff. Detalhe refinado para dar um toque especial de elegância à sua mesa posta.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403326206/47ee52ab06c44ee198569dbdc80a5ab9-r0mv8ofbp3.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403326206/01335a87230b42b4801d5def9de5ddf1-l63ckiz8r4.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403326206/3248e667c0b94ec78113977db14c4b56-x3ghl6gjqq.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403326206/e8bd182aa9e344e090dbb1581fed1251-ibrhodwwk7.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403326206/458cbd65979a4337bd525ca79faa6366-309tupni11.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["anel guardanapo", "wolff", "niquelado", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/jogo-04-aneis-para-guardanapo-de-ferro-niquelado"
+  },
+  {
+    "id": 62,
+    "nome": "Tesoura para Aves Universal Séries Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 259.90,
+    "precoAntigo": 289.90,
+    "descricao": "A Tesoura da Tupperware é o nosso mais novo lançamento para quem gosta de uma experiência maior na Cozinha. Com a Tesoura Tupperware, você poderá cortar alimentos com maestria e precisão.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403330638/1576ba6186d54fe6be46cc39548e54d6-n8wpnnn5dd.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403330638/51c339b53e3e44cb92abe327c6b64cd8-mfxt1i0v95.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403330638/9ce6cc5176a4457184414e01d02c8eb9-vlub8fngsw.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403330638/60f96468df1a4a57891a11bdbd36ddb4-p500oyx9k6.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tesoura", "aves", "tupperware", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/tesoura-para-aves-universal-series-tupperware"
+  },
+  {
+    "id": 63,
+    "nome": "Garrafa Térmica Com Termômetro 1 Litro Lyor",
+    "categoria": "Garrafas",
+    "preco": 135.90,
+    "precoAntigo": null,
+    "descricao": "Garrafa Térmica com Termômetro Digital 1 Litro Lyor. Mantém a temperatura com precisão e estilo para servir café ou chá.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403410905/6245a62f496e4fc1abb65197ac668aff-wxgx558w97.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403410905/67dbf0fc4e064866ba9ebc05aea793a7-izald89ral.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403410905/e8d30115d7c642aba64e5804eda3c9d4-xzihzhvx6q.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403410905/2ae0e55e3ed64181bd16915973e9bead-4k5g7ugz6t.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["garrafa termica", "termometro", "lyor"],
+    "linkSite": "https://www.a2decor.com.br/garrafa-termica-com-termometro-1-litro-lyor"
+  },
+  {
+    "id": 64,
+    "nome": "Kit Tupperware Jarra Perfeita 1,8 Litro + 4 Copos Allegra 450ml",
+    "categoria": "Jarras e Copos",
+    "preco": 329.90,
+    "precoAntigo": 350.50,
+    "descricao": "Kit Tupperware composto por Jarra Perfeita de 1,8L e 4 Copos Allegra de 450ml cada. Perfeito para servir sucos e bebidas com sofisticação.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403423795/95acea4de165477dad4b121996b4b14c-eaif69kgwn.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403423795/939013af8d7f49a7bc980cc9db87b4ae-uwec7vioi9.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403423795/3aab9f5f57c04e8faa2e671dec6bdf38-4czfd87fjx.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403423795/cf92e6573d3c4037bae8abc149d140ca-sjmovkoph8.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403423795/df3296e305224ed58de24a4f1e8221d9-pk3vzok8u0.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["kit", "jarra", "copos", "allegra", "tupperware"],
+    "linkSite": "https://www.a2decor.com.br/kit-tupperware-jarra-perfeita-18-litro-4-copos-allegra-450ml"
+  },
+  {
+    "id": 65,
+    "nome": "Tigela Serve E Conserva Allegra 1 Litro Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 102.90,
+    "precoAntigo": null,
+    "descricao": "Tigela Serve E Conserva Allegra 1 Litro Tupperware. Design moderno e funcional para conservar seus alimentos e compor a mesa posta.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425127/86c13d375cd643cf87742fe7e36af73b-icpd5uff5z.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425127/3a496b50bfe24c03b74eefb853ba87c4-jnqmm29mhu.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425127/e47100ceb9c24afbac49276855638a62-ajejx3el7x.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425127/288d5bc5f1f24afdadfadbd0b4dc7fc5-5rkz3t5ahu.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425127/457ad7da991b4b46ba45085acd70c30d-8k4wctd1uc.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tigela", "allegra", "tupperware", "conserva"],
+    "linkSite": "https://www.a2decor.com.br/tigela-serve-e-conserva-allegra-1-litro-tupperware"
+  },
+  {
+    "id": 66,
+    "nome": "Cesto Allegra 1,3L Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 109.90,
+    "precoAntigo": 116.90,
+    "descricao": "Cesto Allegra 1,3L Tupperware. Perfeito para servir pães, torradas e petiscos com elegância na mesa posta.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425931/2f662b22726c4ea680b14a499d572076-jnl4lxqxhp.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425931/bb06003618a0430b9178c72e5aaa7407-zpwkqhczwt.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425931/c95c458745fe4b9b8b72b75a88ddb666-60tqeneewh.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425931/6def86704b164d4791077b7a2ec92360-jvxzm2g7ca.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403425931/9dce6045e6514841b0bba662c5636cdd-ev58s47a27.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["cesto", "allegra", "tupperware", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/cesto-allegra-13l-tupperware"
+  },
+  {
+    "id": 67,
+    "nome": "Big Cake Redondo Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 199.90,
+    "precoAntigo": 231.90,
+    "descricao": "Big Cake Receitas Tupperware: Proteja e transporte seus bolos com praticidade! Ideal para armazenar, conservar e levar suas receitas com segurança e estilo!",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403426204/e65ee3b8a8fc40a181000d0f81f59317-5vhnwozpol.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403426204/444b81e337a347d9acbd2a52939a9656-9vna3nzrex.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403426204/4749268867bf4fc78d13ab45c9fb6c57-1dt65s1l1d.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403426204/6d136ca695d144fea8033b6960eaa13c-65vcgrui4c.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403426204/c3a42ccdfca54de6836551c330c7910e-zth140t3j2.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["big cake", "tupperware", "boleira"],
+    "linkSite": "https://www.a2decor.com.br/big-cake-redondo-tupperware"
+  },
+  {
+    "id": 68,
+    "nome": "Jogo de Talheres em Aço Inox Tupperware 16 Peças",
+    "categoria": "Talheres",
+    "preco": 399.90,
+    "precoAntigo": 599.90,
+    "descricao": "O Faqueiro Tupperware com 16 peças em Aço Inoxidável é ideal para quem ama uma linda mesa posta. Alta durabilidade e acabamento refinado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403428936/888092ae0bcd46a3814bca9337ae951c-3qspxwefzd.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403428936/49fe5eae6f0b4b778a6dab529bfb3951-84m0bkvyup.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403428936/428a3afda878474c9687eb5cd94d1454-o95151i8kw.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403428936/a2a53ed8e0da47ff8326ad826a2acef0-pvz0ipdt3a.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403428936/49ddd6396c774096a3ffcbc6c607ad74-ky7gq1w26u.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["faqueiro", "talheres", "inox", "tupperware"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-talheres-em-aco-inox-tupperware-16-pecas"
+  },
+  {
+    "id": 69,
+    "nome": "Tigela Maxi Criativa 7,8L Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 169.90,
+    "precoAntigo": null,
+    "descricao": "A linha Maxi Criativa 7,8L foi desenvolvida para tornar mais fácil a preparação de grandes receitas. Conta com alça lateral para apoio firme do polegar.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431249/6e0b82e9a5f04fbc95dcbc4c13d81e45-kohyewnybr.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431249/dd6ffce113c3460e8bd49f0154bbfc67-5tasyx38ic.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431249/f59066e0e4b74950a550b03f0ca61a10-2mmn4c91ng.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431249/374b32f6ec5c4551b6a61a56f68da3dd-h7gv6rtyg3.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431249/a14af884d00149a2b18324a797edc102-yfm4gd94zz.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tigela", "maxi criativa", "tupperware", "preparo"],
+    "linkSite": "https://www.a2decor.com.br/tigela-maxi-criativa-78l-tupperware"
+  },
+  {
+    "id": 70,
+    "nome": "Super Chef Mini Fatiador Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 189.90,
+    "precoAntigo": null,
+    "descricao": "O Super Chef Mini é um fatiador compacto e multifuncional. Corte preciso e seguro de nozes e vegetais com protetor para os dedos e lâmina dupla.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431645/8774501d785d4ffb96c41e1a67504bbe-2v55mld045.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431645/52f70c794dfb40cea8e8dcd818093f09-3qq68vvnll.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431645/f70b6b4522d94068976fd33dad54d1c9-fd8yvq2gqe.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431645/cb12d85bc21a4a61ad7fb85746ca25e3-f13mxpq0va.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403431645/b852f6425d514fd7be3b1d52cf1414ea-fth7k6eozx.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["super chef", "fatiador", "tupperware", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/super-chef-mini-fatiador-tupperware"
+  },
+  {
+    "id": 71,
+    "nome": "Porta Tudo 10L Tupperware",
+    "categoria": "Organização",
+    "preco": 219.90,
+    "precoAntigo": 259.90,
+    "descricao": "O Porta Tudo 10L é a solução perfeita para armazenar grande quantidade de alimentos com praticidade, vedação hermética e excelente capacidade.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432922/c6b16cab36724fa29d8401aed660f04b-tads0tvp7u.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432922/beb5a558864b4fb395e577120f9dff46-vidjkpfk07.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432922/b3f31606f68041728aab9a3d97892ccf-an04olcwg0.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432922/f02ff3463973429f97eaa43065268007-ixa0v2u7ge.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432922/86e01871d5304029a405f1184ad9f86a-5ztzzrbpte.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["porta tudo", "tupperware", "armazenamento"],
+    "linkSite": "https://www.a2decor.com.br/porta-tudo-10l-tupperware"
+  },
+  {
+    "id": 72,
+    "nome": "Tupper Caixa 3,7L Tupperware",
+    "categoria": "Organização",
+    "preco": 99.90,
+    "precoAntigo": 113.90,
+    "descricao": "A Tupper Caixa 3,7 Litros é perfeita para a linha de armazenagem de grãos, cereais e alimentos secos, mantendo armários empilhados e organizados.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432966/2a83c0b80dd343c091577fe2681f383e-mdy7136hzp.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432966/fe4d402cedff41eab63853d5acabd565-wedldrcmit.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432966/8aff38293bec4c5b86ed7b53b43f822b-a4ddbmbk4i.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432966/c9300a650f8d4895a3f3399dfd146b35-mnj7nyqeur.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432966/d681793e802b4ff5b4bb15ffba9b94aa-eiddg798fn.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tupper caixa", "tupperware", "armazenagem"],
+    "linkSite": "https://www.a2decor.com.br/tupper-caixa-37l-tupperware"
+  },
+  {
+    "id": 73,
+    "nome": "Tupper Caixa 1,1L Tupperware",
+    "categoria": "Organização",
+    "preco": 64.90,
+    "precoAntigo": 73.90,
+    "descricao": "A Tupper Caixa 1,1 Litros é ideal para armazenar grãos, temperos ou mantimentos secos com encaixe perfeito na sua despensa.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432990/d6a9cacab9ea4e29abc9b74aac32f776-vimiplvrvl.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432990/66d9a161652f41d28e5ff297df507b95-x6tbjnkg76.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432990/eb4dcbcd8cbe4ed2b158f088d6b089ee-9t6u8y7ijd.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432990/c56e19222c5c4f8bbd4e7c0bd51eee2c-iq5xmoy84b.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403432990/ef7de2791027456895ce7b40ecf6367c-7z5hsm4ygl.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tupper caixa", "tupperware", "mantimentos"],
+    "linkSite": "https://www.a2decor.com.br/tupper-caixa-11l-tupperware"
+  },
+  {
+    "id": 74,
+    "nome": "Porta Ovos Tupperware",
+    "categoria": "Organização",
+    "preco": 149.90,
+    "precoAntigo": null,
+    "descricao": "O Tupperware Porta Ovos traz praticidade e segurança para conservar ovos na geladeira por mais tempo com proteção contra impactos.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433137/eb7b9b70ddff4212a74f0c1304ede899-wf73lfqedd.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433137/e3b5c82313ea499e987e7acf5f7e2601-sze785w6xs.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433137/fc210f1651fb4d35abfe5231d3664bee-6nxhtaa3r5.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433137/2d4c6a4bd09f44aabec09570f8138151-cv4ek3kwbs.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["porta ovos", "tupperware", "geladeira"],
+    "linkSite": "https://www.a2decor.com.br/porta-ovos-tupperware"
+  },
+  {
+    "id": 75,
+    "nome": "Descascador Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 47.90,
+    "precoAntigo": null,
+    "descricao": "O Descascador Tupperware possui design anatômico para descascar vegetais com eficiência. Lâmina em aço fina para evitar desperdícios.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433905/93844a211bd447ab9224a0422cbfea62-yxkrz2kh0s.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433905/63b070f419004fbc8223fcac33e14fbd-7o258hv64m.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433905/66f0c439c954485ab128bfadac38c108-2500sjp46b.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433905/fc828cb896264a27aa68d9772cf38b40-xpunh5p28y.jpeg"
+    ],
+    "video": "",
+    "estoque": 4,
+    "destaque": false,
+    "tags": ["descascador", "tupperware", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/descascador-tupperware"
+  },
+  {
+    "id": 76,
+    "nome": "Tigela Aloha 7,5L Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 189.90,
+    "precoAntigo": 199.90,
+    "descricao": "A Tigela Aloha 7,5L é ideal para servir e preparar grandes refeições. Design arredondado, leve e perfeito para refeições ao ar livre.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433960/2e328cdcbad540da9ffab7c945f8d25c-t1olg9uock.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433960/c20ffe0e143f4774859966c0248c3027-ym0kipkg2k.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403433960/5ba8db641b1b46fbb56cd5f0548456ad-c2qikcpk0u.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tigela", "aloha", "tupperware", "servir"],
+    "linkSite": "https://www.a2decor.com.br/tigela-aloha-75l-tupperware"
+  },
+  {
+    "id": 77,
+    "nome": "Xícara de Borboleta com pétalas parede dupla 200ml",
+    "categoria": "Xícaras",
+    "preco": 99.90,
+    "precoAntigo": null,
+    "descricao": "Xícara em vidro de parede dupla com flores secas cor-de-rosa no interior e detalhe delicado de borboleta na alça. Capacidade para 200ml.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403447559/2a4e80dbc98b40f89f2aff5b6db1b800-65bi1q10dj.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["xicara", "parede dupla", "borboleta", "cafe"],
+    "linkSite": "https://www.a2decor.com.br/xicara-de-borboleta-com-petalas-parede-dupla-200ml"
+  },
+  {
+    "id": 78,
+    "nome": "Porta Tudo 10L Rosa Tupperware",
+    "categoria": "Organização",
+    "preco": 219.90,
+    "precoAntigo": 259.90,
+    "descricao": "O Porta Tudo 10L na cor rosa é perfeito para armazenar ingredientes em grande quantidade com o charme e a vedação Tupperware.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403452452/2a7491e8973642df9552e6d3154f93af-xd7ftad2x3.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403452452/d703bacaa9664432a3ac92d48859f705-beach1drg6.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403452452/7a9f6fc8c09b4394b5da2510499f8cc7-zb58d5cvpd.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403452452/0f1af6e0d8f44610a919b5e8f3af5ef3-woo58tkep3.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403452452/ee67872ff43342c795f5e2d55a50507f-ndd53kyn7z.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["porta tudo", "rosa", "tupperware"],
+    "linkSite": "https://www.a2decor.com.br/porta-tudo-10l-rosa-tupperware"
+  },
+  {
+    "id": 79,
+    "nome": "Tigela Actualité 10 Litros Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 219.90,
+    "precoAntigo": 234.90,
+    "descricao": "A Tigela Actualité 10L apresenta um design diferenciado com duas alças laterais discretas. Possui parte interna opaca que evita riscos e prolonga a durabilidade.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403455625/095b7138f92f433c8d9dff71ca6dab04-9ih6qftqxv.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403455625/62dc66c674f7499cacfb7089f10b4438-f0sc23cwnn.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403455625/92c8bde239984e189ae309ff7dd47f89-zrrb1vk5f6.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tigela", "actualite", "tupperware", "servir"],
+    "linkSite": "https://www.a2decor.com.br/tigela-actualite-10-litros-tupperware"
+  },
+  {
+    "id": 80,
+    "nome": "Cj 02 Guardanapos em Algodão 40x40cm",
+    "categoria": "Mesa Posta",
+    "preco": 0.00,
+    "precoAntigo": null,
+    "descricao": "Kit Guardanapo com 2 peças em Tecido 100% Algodão Rojemac 40x40cm. Uma opção elegante e resistente para dar um toque de requinte às suas recepções.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403456643/3440d1b4a6e24e7ea114fb7e3d384efe-kugx7zhiib.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403456643/05ff5544c8024bb9b932638e2657c86d-8gxv3id6qe.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403456643/7b9e7c6276ba44a291a4a6ccf24c9485-zw3j4nkane.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403456643/6aeb55c507244fcbafb40c93c28f3c64-g4bt8er96y.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403456643/0c39df31408e40f2900ed44bcf2278b7-po12du0wc7.jpeg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["guardanapo", "algodao", "rojemac", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/cj-02-guardanapos-em-algodao-40x40cm"
+  },
+  {
+    "id": 81,
+    "nome": "Lixinho de Pia Floral 3,3 Litros Tupperware",
+    "categoria": "Organização",
+    "preco": 129.90,
+    "precoAntigo": null,
+    "descricao": "O Lixinho de Pia Floral 3,3L Tupperware é ideal para descarte prático de resíduos durante o preparo de refeições, mantendo a pia limpa com estampa floral delicada.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458010/ae6f20c6c5554338bd554b781593a638-44jeh8c4wo.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458010/6fe6fc2ad7154aac976ea58afb05db34-hrvclziyqn.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458010/5d70d9f0912045199908a58e5b7f77ab-oa8g2r5v7t.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["lixinho de pia", "floral", "tupperware", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/lixinho-de-pia-floral-33-litros-tupperware"
+  },
+  {
+    "id": 82,
+    "nome": "Kit Linha Prisma 08 Peças Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 749.90,
+    "precoAntigo": 947.20,
+    "descricao": "Kit Tupperware da Linha Prisma com 8 peças em policarbonato de alta resistência e transparência cristalina. Peças sofisticadas para servir e armazenar.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458044/faec93ed8a864e7899361aa7ec2929f9-v4c9svc5wu.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458044/26bb1b122ebb4fd5b3bb1c128efbdaee-kj5vxqh61p.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458044/c66e701d97094d10a396b4b399c53996-j0o8ug3zpd.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458044/6d59ea35cce8403a8f3e7e56b530357d-4cghzdbkol.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458044/f880e2afb2ab4fd2936ad8690bf334bd-egax0va3oe.jpeg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["kit prisma", "policarbonato", "tupperware", "servir"],
+    "linkSite": "https://www.a2decor.com.br/kit-linha-prisma-08-pecas-tupperware"
+  },
+  {
+    "id": 83,
+    "nome": "Descascador de Frutas e Legumes Tupperware Geração II",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 56.90,
+    "precoAntigo": null,
+    "descricao": "O Descascador Geração II oferece 6 funções em 1: lâminas lisa e serrilhada, removedor de olho de batata e cortadores especiais para cascas finas e grossas.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458379/656e1069472d4616851d7b4f182ac092-566ky95fi7.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["descascador", "geracao 2", "tupperware", "utensilio"],
+    "linkSite": "https://www.a2decor.com.br/descascador-de-frutas-e-legumes-tupperware-geracao-ii"
+  },
+  {
+    "id": 84,
+    "nome": "Premiaglass Travessa de Vidro com Tampa 1L Tupperware",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 179.90,
+    "precoAntigo": null,
+    "descricao": "A Travessa Premiaglass Tupperware em vidro borossilicato assa, armazena, reaquece e serve com praticidade e resistência a altas temperaturas.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458398/e5afa8180acb49dfb85ce9d2278eff90-43dj3nauzn.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["premiaglass", "travessa", "vidro", "tupperware"],
+    "linkSite": "https://www.a2decor.com.br/premiaglass-travessa-de-vidro-com-tampa-1l-tupperware"
+  },
+  {
+    "id": 85,
+    "nome": "Escova para Lavar Garrafa Eco Tupper Tupperware",
+    "categoria": "Organização",
+    "preco": 99.90,
+    "precoAntigo": null,
+    "descricao": "Escova Eco Tupper Azul especialmente desenvolvida para higienizar garrafas, mamadeiras e potes, alcançando cantos difíceis com cerdas firmes.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458828/c2416ed991f3484e9c26a5865e2936b1-zd0llcj51x.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458828/84dd890ce753488b9f035d0d2ae110a5-fx2f71grw0.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458828/a788510d5ce44cd9ab4fbb10b7119c3b-1acowgxnk4.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458828/7f6621168a514432a9be887d2fe03470-jncftgs23q.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403458828/47316f3e4cd54318a7699d601aeff45c-qvrk943eff.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["escova", "eco tupper", "tupperware", "limpeza"],
+    "linkSite": "https://www.a2decor.com.br/escova-para-lavar-garrafa-eco-tupper-tupperware"
+  },
+  {
+    "id": 86,
+    "nome": "Xícara de vidro Borossilicato 200ml - detalhes de borboleta",
+    "categoria": "Xícaras",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Xícara em vidro borossilicato de 200ml com delicados detalhes de borboleta, ideal para momentos de café e chá com elegância.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403467594/703d2cb4a5e14678927269ee9e41c192-muxu5cncpk.jpeg"
+    ],
+    "video": "https://www.youtube.com/watch?v=dE-PK9O8iis",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["xicara", "borossilicato", "borboleta", "cafe"],
+    "linkSite": "https://www.a2decor.com.br/xicara-de-vidro-borossilicato-200ml-detalhes-de-borboleta"
+  },
+  {
+    "id": 87,
+    "nome": "Conjunto De Xícaras Tramontina Chá E Cappuccino 300ml 2 peças",
+    "categoria": "Xícaras",
+    "preco": 139.80,
+    "precoAntigo": null,
+    "descricao": "Conjunto com 2 Xícaras Tramontina para Chá e Cappuccino de 300ml. Parede de vidro de alta qualidade para manter a bebida quente por mais tempo.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403468423/84af20f720f04e46936705227a88729c-x0zt7xe1l7.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403468423/12289159ab484d03b19c752c232b1b0f-j263bz8kps.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["xicara", "tramontina", "cappuccino", "cha"],
+    "linkSite": "https://www.a2decor.com.br/conjunto-de-xicaras-tramontina-cha-e-cappuccino-300ml-2-pecas"
+  },
+  {
+    "id": 88,
+    "nome": "Caneca de Vidro Borossilicato de Parede Dupla Verde - 380ml",
+    "categoria": "Canecas",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Caneca de Vidro Borossilicato de Parede Dupla 380ml Verde. Mantém a temperatura da bebida e evita queimaduras ao segurar.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403475579/8c143a20df4b43fba619626871de2e09-ig6voes9nq.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403475579/a889cd4b03ee48f899364fd0038a3c50-sxviqx5mfl.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca", "parede dupla", "verde", "borossilicato"],
+    "linkSite": "https://www.a2decor.com.br/caneca-de-vidro-borossilicato-de-parede-dupla-verde-380ml"
+  },
+  {
+    "id": 89,
+    "nome": "CHALEIRA ELETRICA BCH06P 127V",
+    "categoria": "Eletrodomésticos",
+    "preco": 169.90,
+    "precoAntigo": null,
+    "descricao": "Chaleira Elétrica Britânia BCH06P 127V. Ferve água com rapidez e segurança para o preparo de cafés, chás e receitas.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403504749/17108ce4174f42e380947d77e53a1672-qf2kvsivfo.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403504749/ba2d6d8d5cd948dbb15f3ed9a3da0e4c-2x6d8ehzcs.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403504749/e57e6a644d9c4c368924b6de76bcee0e-9xaofbk2sb.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403504749/53bda7e781d143f8a01446c5d2ea94da-3nsdvqdbbw.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403504749/21704836ad1d42b68f29cfe3933f1959-q7kqikhqta.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["chaleira eletrica", "britania", "127v", "eletro"],
+    "linkSite": "https://www.a2decor.com.br/chaleira-eletrica-bch06p-127v"
+  },
+  {
+    "id": 90,
+    "nome": "Aparelho de jantar 16 peças",
+    "categoria": "Mesa Posta",
+    "preco": 399.90,
+    "precoAntigo": null,
+    "descricao": "Aparelho de jantar com 16 peças: pratos rasos, pratos de salada, tigelas e xícaras. Elegância e versatilidade para todas as refeições.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403522817/61869134b1704ae4a78787e96d7c5058-9bnyjlrxsf.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403522817/820c0da0446b4406b23cbd803ff9af5d-jas9e0s27f.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403522817/cf862187490a43f59074e9b13fb758ca-406lvlawxs.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403522817/5ff3c6bee17940e0b946d6764a16693e-e0ty5cb9mw.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403522817/01e2cf60e7ff4c0c948d65271ed9e323-jrcu5acoih.png"
+    ],
+    "video": "https://www.youtube.com/watch?v=dnC9CEL-fRM",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["aparelho de jantar", "louca", "mesa posta"],
+    "linkSite": "https://www.a2decor.com.br/aparelho-de-jantar-16-pecas"
+  },
+  {
+    "id": 91,
+    "nome": "Xícara de Porcelana Romântica (180 ml) – Detalhes Florais em Relevo",
+    "categoria": "Xícaras",
+    "preco": 119.90,
+    "precoAntigo": null,
+    "descricao": "Xícara de Porcelana Romântica 180ml com delicadas flores lilás em relevo. Perfeita para mesa posta, café ou chá. Valor unitário.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403523866/1480fb0a7c4943658f0af5f3d9186630-uyedo07elm.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403523866/71ae5a2d03d44977905858a8497d4c59-6m9jdaslr5.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403523866/844fb9bf01e14b4ea008c63f2fb885d3-nsim8v0k84.jpg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["xicara", "porcelana", "floral", "relevo"],
+    "linkSite": "https://www.a2decor.com.br/xicara-de-porcelana-romantica-180-ml-detalhes-florais-em-relevo"
+  },
+  {
+    "id": 92,
+    "nome": "Borrifador de Vidro 240ml Galheteiro para Azeite Óleo Spray Multiuso Culinário Branco",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 22.90,
+    "precoAntigo": 29.90,
+    "descricao": "Borrifador Spray de Vidro 240ml Branco para azeite e óleo. Dosagem uniforme que evita desperdícios e garante receitas mais saudáveis.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403523942/e1ec8a0ccec048c796569ef6dcde38c7-cpnoaj2cu3.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["borrifador", "spray", "galheteiro", "azeite", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/borrifador-de-vidro-240ml-galheteiro-para-azeite-oleo-spray-multiuso-culinario-branco"
+  },
+  {
+    "id": 93,
+    "nome": "Jogo de Facas Tramontina Plenus com Lâminas em Aço Inox e Cabos de Polipropileno Colorido 8 Peças",
+    "categoria": "Talheres",
+    "preco": 129.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Facas Tramontina Plenus Colorido 8 Peças em Aço Inox com cabos de polipropileno de alta resistência.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403524127/f43207f602a24a9396b526fafd72599b-y78mlp8clk.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403524127/e02b2e1200714e37a479fc11f13d6355-e5yctykd0z.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403524127/700634df117941779e2ccc46d251b46d-7e30tx620d.jpg"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["facas", "tramontina", "plenus", "colorido"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-facas-tramontina-plenus-com-laminas-em-aco-inox-e-cabos-de-polipropileno-colorido-8-pecas"
+  },
+  {
+    "id": 94,
+    "nome": "Escova Secadora By Juliette Mondial Azul e Rosa ES-JU-03",
+    "categoria": "Eletrodomésticos",
+    "preco": 215.90,
+    "precoAntigo": null,
+    "descricao": "Escova Secadora Mondial By Juliette ES-JU-03 em tom Azul e Rosa. Praticidade para secar, alisar e modelar seus cabelos rapidamente.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556100/3b465ef0de104abb96013c9632318031-xtosldp4qo.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556100/4f877874273641afa43ae3678c72a62d-muhsjasxoq.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556100/cd83d81ab9794689862afcab144c9c67-8xeivrvpj2.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556100/c9f467a59a1a4eaf9ca8eefb68be2747-oty3ddom37.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556100/06393e63086d44ddb8ce62d3e8e51de5-osck6odt84.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["escova secadora", "juliette", "mondial", "beleza"],
+    "linkSite": "https://www.a2decor.com.br/escova-secadora-by-juliette-mondial-azul-e-rosa-es-ju-03"
+  },
+  {
+    "id": 95,
+    "nome": "Escova Secadora Britânia Bec02pr 1300w Preta Bivolt",
+    "categoria": "Eletrodomésticos",
+    "preco": 169.90,
+    "precoAntigo": null,
+    "descricao": "Escova Secadora Britânia BEC02PR 1300W Preta Bivolt. Potência e versatilidade bivolt para modelar os fios com eficiência.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556454/2a99dc9731cb4b8da0d88cef0e8ebd83-dz4dx8oms5.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556454/a79fa3507c3d4b9788e78e00ac4c165c-yyjz1rcpnh.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403556454/64d77d4b024c4f259d7bddc516750c85-evay4jjumr.webp"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["escova secadora", "britania", "bivolt", "beleza"],
+    "linkSite": "https://www.a2decor.com.br/escova-secadora-britania-bec02pr-1300w-preta-bivolt"
+  },
+  {
+    "id": 96,
+    "nome": "Caneca Porcelana 620ml",
+    "categoria": "Canecas",
+    "preco": 0.00,
+    "precoAntigo": null,
+    "descricao": "Caneca em porcelana de alta capacidade (620ml), ideal para sopas, caldos ou uma dose generosa de café.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403650224/802c954172014950aac22d1517724cb3-aj7s1pkqzf.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403650224/cbf32abcad6348deb22368bc9bb444e3-bushquqpo3.png"
+    ],
+    "video": "https://www.youtube.com/watch?v=fR_6yQeQZxQ",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["caneca", "porcelana", "grande"],
+    "linkSite": "https://www.a2decor.com.br/caneca-porcelana-620ml"
+  },
+  {
+    "id": 97,
+    "nome": "Galheteiro Porta Condimentos 5 Peças em Vidro e Aço Inox",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 59.90,
+    "precoAntigo": null,
+    "descricao": "Galheteiro e Porta Condimentos com 5 peças em vidro e aço inox, combinando praticidade e sofisticação na cozinha.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403651101/db4e3aaf6ade4f8ebea400f0b650bda1-aoiamnm4r0.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403651101/36f204c4eab7407f91874e5ef9fab06f-mexbw10f0f.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["galheteiro", "porta condimentos", "inox", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/galheteiro-porta-condimentos-5-pecas-em-vidro-e-aco-inox"
+  },
+  {
+    "id": 98,
+    "nome": "Caneca de Vidro Borboletas 3D com Alça de Cristais",
+    "categoria": "Canecas",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Caneca encantadora em vidro com detalhes de borboletas em 3D e alça preenchida com cristais reluzentes.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403654489/95d0e5ca302c46f5b0b1cd8b7355f786-nqxqhtkjob.png"
+    ],
+    "video": "https://www.youtube.com/watch?v=5RfRTEVHdMM",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["caneca", "borboletas 3d", "cristais", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/caneca-de-vidro-borboletas-3d-com-alca-de-cristais"
+  },
+  {
+    "id": 99,
+    "nome": "Conjunto Panelas Cerâmica Ultra Indução Serena 5 peças MTA",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 779.90,
+    "precoAntigo": null,
+    "descricao": "Conjunto de Panelas em Cerâmica para Indução Linha Serena MTA com 5 peças. Revestimento cerâmico de alta performance e fundo triplo para indução.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656202/e7fc123dba994a578e7a7be05e9a94d3-ndx6an4efn.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656202/a16d65a007df4c369de576159d14429d-ct7v6gx46v.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656202/c28aad56349b43e592b320638246ee47-y4kybikttq.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656202/fd7dd5cef2e548d4b594f0545958a81d-t6tsaepvpv.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["panelas", "ceramica", "inducao", "mta", "serena"],
+    "linkSite": "https://www.a2decor.com.br/conjunto-panelas-ceramica-ultra-inducao-serena-5-pecas"
+  },
+  {
+    "id": 100,
+    "nome": "Aparelho de Jantar e Chá em Porcelana – 20 Peças",
+    "categoria": "Mesa Posta",
+    "preco": 399.90,
+    "precoAntigo": null,
+    "descricao": "Aparelho de Jantar e Chá em Porcelana Fina com 20 Peças. Serve até 4 pessoas com elegância e qualidade impecável.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656391/6f4542620b514bb19ab98c8e4b38f261-19bg5lwqoo.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656391/b48dce27e41a4d95aae21614f378c4b9-6woa2icbgm.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656391/3544db7fb1844f80887e5c4feeeb17cc-tey2b8seoi.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656391/03879465707848798d7ad015a8e3d617-jpzmqss821.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403656391/b64a1499e53944a7ac2a6fe562d54b0f-xphkh24c5e.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["aparelho de jantar", "porcelana", "mesa posta", "cha"],
+    "linkSite": "https://www.a2decor.com.br/aparelho-de-jantar-e-cha-em-porcelana--20-pecas"
+  },
+  {
+    "id": 101,
+    "nome": "Escova Secadora Britânia Soft 1300W BEC07R Bivolt",
+    "categoria": "Eletrodomésticos",
+    "preco": 229.90,
+    "precoAntigo": null,
+    "descricao": "Escova Secadora Britânia Soft 1300W BEC07R Bivolt. Cerdas macias para secar, alisar e dar volume aos cabelos com facilidade.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403658188/3c846db13d2a496a8c76e1d83ee16180-lp340xk4zf.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403658188/49e5fbff9154446b8cf208e0b6bf26c3-7f6p8erzav.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403658188/8be2dc314ee447dbba9a787caad7a691-h6zo2ivn5m.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["escova secadora", "britania", "bivolt", "beleza"],
+    "linkSite": "https://www.a2decor.com.br/escova-secadora-britania-soft-1300w-bec07r-bivolt"
+  },
+  {
+    "id": 102,
+    "nome": "Kit Cantinho do Café Premium – Garrafa Térmica c/ Termômetro + Porta Cápsula + 2 Xícaras Tramontina",
+    "categoria": "Kits e Conjuntos",
+    "preco": 319.90,
+    "precoAntigo": null,
+    "descricao": "Kit Cantinho do Café Premium completo com Garrafa Térmica com Termômetro, Porta Cápsulas e 2 Xícaras de vidro duplo Tramontina.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759049/db9b73035c9e446a8f84971a83597c3b-laqm9l1e7f.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759049/01c3c26258304f889858af328244b434-z7cv43xyeg.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759049/2de1bb4490b54dc39384484c7925cbed-1y6bu4cf8r.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759049/6606b180391448978179efefe352b46b-5b902ob6oa.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759049/02504392981742e3be12a0936c8fc68f-ar7uevm6f4.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["cantinho do cafe", "kit premium", "tramontina", "garrafa termica"],
+    "linkSite": "https://www.a2decor.com.br/kit-cantinho-do-cafe-premium--garrafa-termica-c-termometro-porta-capsula-2-xicaras-tramontina"
+  },
+  {
+    "id": 103,
+    "nome": "Kit Experiência Romântica – Aparato Fondue Cerâmica + Suporte Madeira Teca para Taças",
+    "categoria": "Kits e Conjuntos",
+    "preco": 139.90,
+    "precoAntigo": null,
+    "descricao": "Kit Experiência Romântica incluindo Aparelho de Fondue em Cerâmica e Suporte em Madeira Teca para 2 Taças. Ideal para momentos a dois.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759757/f2621291e1ce46f8afc25a99f4878c4f-a8v72fjm2v.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759757/ca2a696e24b749e3b0ca56d9b69545e9-j92ld4rc7t.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/403759757/2103956b49c84c349b0e423d0a92fdcc-9kuhp8rxom.jpeg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["fondue", "kit romantico", "madeira teca", "ceramica"],
+    "linkSite": "https://www.a2decor.com.br/kit-experiencia-romantica--aparato-fondue-ceramica-suporte-madeira-teca-para-tacas"
+  },
+  {
+    "id": 104,
+    "nome": "Escova Secadora 4 em 1 Bivolt 1200W Golden Rose com Tecnologia Qu4tro Elementos Mondial",
+    "categoria": "Eletrodomésticos",
+    "preco": 249.90,
+    "precoAntigo": null,
+    "descricao": "Escova Secadora Mondial Golden Rose 1200W Bivolt. Tecnologia Qu4tro Elementos que seca, alisa e modela reduzindo o frizz e selando as cutículas.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404013394/af6dcbe68ad246e9825892cd1c97a6b1-417s9v3b93.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404013394/7117d74ccedd4723bc093a2321fc0077-v2u54q81ul.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404013394/02cce6d26b404cbf838b6780a31dd599-lq0u6z6pv8.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404013394/bce745366e05468aaaa07573ceed1c0b-zdj9xfnbsi.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404013394/ca01ebcede6a439ca4cfce9165af2764-pivho897mu.png"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["escova secadora", "golden rose", "mondial", "bivolt"],
+    "linkSite": "https://www.a2decor.com.br/escova-secadora-4-em-1-bivolt-1200w-golden-rose-com-tecnologia-qu4tro-elementos"
+  },
+  {
+    "id": 105,
+    "nome": "Escova Secadora Mondial White Rose Line ES-50 1300W Bivolt",
+    "categoria": "Eletrodomésticos",
+    "preco": 209.90,
+    "precoAntigo": null,
+    "descricao": "Escova Secadora Mondial ES-50 White Rose 1300W Bivolt. Seca, alisa e modela com agilidade e brilho intenso.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014008/1709d307ff3948caaed3f47152b1ebbe-3876b4etpt.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014008/9fe64d0273054a32b548ea7b2fd33f16-xisim9h5s9.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014008/a31d041f2ddc4f53bbbcb4856f72c47c-83ivo0xk7w.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014008/dabd152282d345a792a191d59f29837a-at6s1k8l9k.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014008/527e91ade5e84b2399b4b4df1b18183d-m753ng732u.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["escova secadora", "white rose", "mondial", "bivolt"],
+    "linkSite": "https://www.a2decor.com.br/escova-secadora-mondial-white-rose-line-es-50-1300w-bivolt--seca-alisa-e-modela"
+  },
+  {
+    "id": 106,
+    "nome": "Escova Alisadora Mondial Golden Rose EA-02 Bivolt",
+    "categoria": "Eletrodomésticos",
+    "preco": 179.90,
+    "precoAntigo": null,
+    "descricao": "Escova Alisadora Mondial EA-02 Golden Rose Bivolt. Possui controle digital de temperatura (80°C a 230°C) e acompanha nécessaire térmica.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014282/d648998193c84587896dc9c1ed864d63-2tzxbnwil1.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014282/3137196faa5946059c3e791fd5e6b015-ed6inh64jk.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014282/4858eb1e8d824a7dbdfdf1ff5d40463c-bxc978ymd5.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014282/bdd770ae1bee46d8b268121298673375-pbd178a291.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014282/04e6bc68565c49579bf68ef45c35c728-79qs1ykkg4.png"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["escova alisadora", "golden rose", "mondial", "bivolt"],
+    "linkSite": "https://www.a2decor.com.br/escova-alisadora-mondial-golden-rose-ea-02-bivolt--com-controle-digital-e-necessaire-termica"
+  },
+  {
+    "id": 107,
+    "nome": "Escova Alisadora Mondial Black Rose EA-07 Bivolt",
+    "categoria": "Eletrodomésticos",
+    "preco": 169.90,
+    "precoAntigo": null,
+    "descricao": "Escova Alisadora Mondial EA-07 Black Rose Bivolt. Revestimento em cerâmica com Tourmaline Íon para um alinhamento perfeito sem frizz.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014728/01da2fbc068d47ca97df09352ecdf670-lqxn9ijtxx.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014728/d282ba294a074fbd990539882b0e165c-l1n46fbafa.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014728/30038b6d1e3b4f55acec18e1c90e7ef7-m9e7bkebez.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014728/bf59d97f40484bf08036cb00e9f5dae8-0g6q244ets.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404014728/f56a3cede3ba4b2aa528867c701fbde4-399kpgdz2u.png"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["escova alisadora", "black rose", "mondial", "bivolt"],
+    "linkSite": "https://www.a2decor.com.br/escova-alisadora-mondial-black-rose-ea-07-bivolt--revestimento-em-ceramica-com-tourmaline-ion"
+  },
+  {
+    "id": 108,
+    "nome": "Escova Térmica Modeladora GA.MA Italy Eleganza Plus 220°C Bivolt",
+    "categoria": "Eletrodomésticos",
+    "preco": 239.90,
+    "precoAntigo": null,
+    "descricao": "Escova Térmica Modeladora GA.MA Italy Eleganza Plus Bivolt. Atinge 220°C para uma modelagem rápida, precisa e livre de frizz.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404044307/c85af37834984ea08911c478430c6922-uq01gu4wk2.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404044307/9189afda579f44cc9a7abb04d9a16044-mjuieteplm.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404044307/acf1415620a44aca8113451e0a478bb6-ffvfu37jtu.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["escova termica", "gama italy", "eleganza plus", "bivolt"],
+    "linkSite": "https://www.a2decor.com.br/escova-termica-modeladora-gama-italy-eleganza-plus-220c-bivolt--modelagem-rapida-e-sem-frizz"
+  },
+  {
+    "id": 109,
+    "nome": "Escova Alisadora By Juliette Mondial Azul e Rosa EA-JU-03",
+    "categoria": "Eletrodomésticos",
+    "preco": 179.90,
+    "precoAntigo": null,
+    "descricao": "Escova Alisadora Mondial By Juliette EA-JU-03 Bivolt. Tecnologia Qu4tro Elementos de 150°C a 230°C para alisar sem agredir os fios.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404048482/101b1fa889334ebc909c8e35d02a09e2-q7d1emrrh3.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404048482/0e08d49ab743438fbe475fe80e6de183-75zm547jm5.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404048482/c51f823817c64f8fa2de30aac4084236-0tnrti81dr.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404048482/9cc198f83d1c4adbbd55f0a127b2423c-nsnhfguklw.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404048482/52becbf61298467a81b57ab6333d4d22-phqfv95pxw.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["escova alisadora", "juliette", "mondial", "bivolt"],
+    "linkSite": "https://www.a2decor.com.br/escova-alisadora-by-juliette-mondial-azul-e-rosa-ea-ju-03"
+  },
+  {
+    "id": 110,
+    "nome": "Secador de Cabelo Profissional Taiff Style 2000W Preto (127V)",
+    "categoria": "Eletrodomésticos",
+    "preco": 279.90,
+    "precoAntigo": null,
+    "descricao": "Secador de Cabelo Profissional Taiff Style 2000W 127V. Motor AC silencioso, peso leve e jato de ar frio para finalização.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404051918/557ef8289afa407cab074e4703d5fac6-g5ia8vcum5.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404051918/b6bf05c3315d49e7b27d60831779d918-zty9qbli6c.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404051918/71bdc34f664f49b295c49914b9394137-pyekmlc2py.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404051918/7f1bc7133f8d4e32bf43ad70b7680167-5h0zqicv7b.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404051918/57443a35ed9d42bcb90a504ab44df830-zzp1dcrm2t.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["secador", "taiff", "2000w", "profissional"],
+    "linkSite": "https://www.a2decor.com.br/secador-de-cabelo-profissional-taiff-style-2000w-preto--silencioso-leve-e-rapido-127v"
+  },
+  {
+    "id": 111,
+    "nome": "Jogo de Xícaras de Café Vidro com Borda Dourada 8 Peças 90ml Martiri — Wellmix",
+    "categoria": "Xícaras",
+    "preco": 68.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras Martiri 8 Peças 90ml Wellmix em vidro transparente martelado com refinada borda dourada.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404133101/8010f69deb4c44e1858ee678048e54f8-osi0hqb2wx.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404133101/d0d4b97b58f348d898fd3f16338d6c7d-rmbzbexpqt.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["xicara", "martiri", "wellmix", "borda dourada"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-de-cafe-vidro-com-borda-dourada-8-pecas-90ml-martiri--wellmix"
+  },
+  {
+    "id": 112,
+    "nome": "Jogo de Xícaras Margareth 6 Peças 120ml em Cerâmica",
+    "categoria": "Xícaras",
+    "preco": 74.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras Margareth 6 Peças 120ml Haüskraft em cerâmica branca com delicado detalhe geométrico dourado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404134901/89773bb98645474a8440cd87bc3d7687-744pb7dgg5.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404134901/14ced840c3574954b365c5bf5c87d064-faeo2k4acj.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["xicara", "margareth", "hauskraft", "ceramica"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-margareth-6-pecas-120ml-em-ceramica"
+  },
+  {
+    "id": 113,
+    "nome": "Jarra de Vidro Trabalhado 1,3 Litros com Borda Dourada Imperial Ouro — Amigold",
+    "categoria": "Jarras",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Jarra de Vidro Imperial Ouro 1,3L Amigold com releva canelado e sutil acabamento em borda dourada.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404136317/8d301e204a034c55b8b30c1e4c578b60-bxfla87uaj.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": true,
+    "tags": ["jarra", "imperial ouro", "amigold", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/jarra-de-vidro-trabalhado-13-litros-com-borda-dourada-imperial-ouro--amigold"
+  },
+  {
+    "id": 114,
+    "nome": "Jogo De Xícaras Aura 100ml 12 Peças em Vidro Kehome",
+    "categoria": "Xícaras",
+    "preco": 99.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras Aura 12 Peças 100ml Kehome em vidro preto canelado com friso dourado (6 xícaras + 6 pires).",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404138370/34e9887308024c18844912131552b803-t0lcbg98no.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404138370/f502cf330dc24b6888e5cfe4232dc452-owonrf3vvr.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404138370/931b035d1de2405fa3fbe0c520498f72-92zjjhk8xc.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["xicara", "aura", "kehome", "vidro preto"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-aura-100ml-12-pecas-em-vidro-kehome"
+  },
+  {
+    "id": 115,
+    "nome": "Coador de Café Reutilizável em Aço Inox 6,5x11,5cm com Base — Koya",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 29.90,
+    "precoAntigo": null,
+    "descricao": "Coador de Café em Aço Inox Reutilizável Koya com base e aba de proteção térmica. Dispensa o uso de filtro de papel.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404140285/4aacc881ae134560a803ed34bd2146de-50v6n1njlf.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["coador", "inox", "koya", "cafe"],
+    "linkSite": "https://www.a2decor.com.br/coador-de-cafe-reutilizavel-em-aco-inox-65x115cm-com-base--koya"
+  },
+  {
+    "id": 116,
+    "nome": "Jogo de Xícaras de Café Cerâmica Branca com Estampa Azul e Dourada 6 Peças 120ml Margareth — Haüskraft",
+    "categoria": "Xícaras",
+    "preco": 74.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras Margareth 6 Peças 120ml Haüskraft em cerâmica branca com nobre estampa azul e acabamento dourado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404140326/0d9054014b26413c82c7e0fbdc3dcbb3-x6oxr778iy.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404140326/e72e076a92364ec7a81d939ce569138c-cpcbug8he2.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["xicara", "margareth", "hauskraft", "azul e dourado"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-de-cafe-ceramica-branca-com-estampa-azul-e-dourada-6-pecas-120ml-margareth--hauskraft"
+  },
+  {
+    "id": 117,
+    "nome": "Jogo de Taças em Cristal Ecológico 240ml 6 Peças Palm Hand Painting — Lyor",
+    "categoria": "Taças",
+    "preco": 129.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças Palm Hand Painting 6 Peças 240ml Lyor em cristal ecológico com pintura de palmeiras feita à mão.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404140469/33650f2b303148e0be236acceee68978-zcnnksdger.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404140469/7c22978f34f441969cdd1d4fffe9cefb-nt1m0jus3d.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404140469/9aca80139510442cb3c4427074c51936-2dle57nmaf.png"
+    ],
+    "video": "https://www.youtube.com/watch?v=QWEl5ib3Akw",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tacas", "palm", "lyor", "cristal ecologico"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-em-cristal-ecologico-240ml-6-pecas-palm-hand-painting--lyor"
+  },
+  {
+    "id": 118,
+    "nome": "Moedor de Sal e Pimenta Manual 21cm em Madeira Natural — Megagift",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 29.90,
+    "precoAntigo": null,
+    "descricao": "Moedor de Sal e Pimenta Manual 21cm Megagift em madeira natural com mecanismo ergonômico e resistente.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404142183/24c1bcf7f7de4c5c818a90828a94969c-2xq688uv62.png"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["moedor", "madeira", "megagift", "temperos"],
+    "linkSite": "https://www.a2decor.com.br/moedor-de-sal-e-pimenta-manual-21cm-em-madeira-natural--megagift"
+  },
+  {
+    "id": 119,
+    "nome": "Pote Organizador Multiuso 1800ml em Plástico Paramount",
+    "categoria": "Organização",
+    "preco": 55.90,
+    "precoAntigo": null,
+    "descricao": "Pote Hermético Organizador Fresh 1800ml Paramount com cesto drenador interno, livre de BPA, ideal para frutas e vegetais.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148415/5849188f0d5a48a0b85df1752454bdc6-tajupjxm2f.png"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["pote hermetico", "paramount", "organizador", "geladeira"],
+    "linkSite": "https://www.a2decor.com.br/pote-organizador-multiuso-1800ml-em-plastico-paramount"
+  },
+  {
+    "id": 120,
+    "nome": "Moedor de Café Retro Manual 15x9,5cm em Madeira Kehome",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 119.90,
+    "precoAntigo": null,
+    "descricao": "Moedor de Café Manual Retrô em Madeira 15x9,5cm UniHome com manivela superior e gaveta coletora de pó de café.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148576/6eef278ff1c04b51b9009d59a1b3e33f-hdo03cooqd.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148576/00db049a75a04dbca63b9e268fe5d14f-qo33kp2cya.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148576/584dd89abd99453a9392ea6a3b81e198-djenzg42p5.png"
+    ],
+    "video": "https://www.youtube.com/watch?v=PzQw9aWfqWQ",
+    "estoque": 0,
+    "destaque": true,
+    "tags": ["moedor de cafe", "retro", "kehome", "madeira"],
+    "linkSite": "https://www.a2decor.com.br/moedor-de-cafe-retro-manual-15x95cm-em-madeira-kehome"
+  },
+  {
+    "id": 121,
+    "nome": "Jogo de Taças para Sobremesa Vidro 3 Peças 330ml Linha Poesia Gold — Borda Dourada",
+    "categoria": "Taças",
+    "preco": 42.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças de Vidro 3 Peças 330ml Linha Poesia Gold com textura em relevo e elegante borda dourada.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148648/acfe31e9e0e94563ba4409ec1a52db99-k2auqt3wjb.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148648/acda31151563419ea7729a08fadd326d-9fass66gpq.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148648/22efad145b4a4d84997dda9529efe742-di1yty464z.png"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["tacas", "sobremesa", "poesia gold", "borda dourada"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-para-sobremesa-vidro-3-pecas-330ml-linha-poesia-gold--borda-dourada"
+  },
+  {
+    "id": 122,
+    "nome": "Organizador P/ Gaveta 25x8cm em Plástico UZ",
+    "categoria": "Organização",
+    "preco": 18.90,
+    "precoAntigo": null,
+    "descricao": "Organizador para Gaveta Transparente Empilhável 25x8cm UZ. Ideal para talheres, maquiagens e acessórios de escritório.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148719/23308b199fae47a78f8a603b460d9eeb-fm5y736lzg.png",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148719/4e110fdd7f1140feaea3f8065270aed3-qoogh3jrrb.png"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["organizador", "gaveta", "uz utilidades", "transparente"],
+    "linkSite": "https://www.a2decor.com.br/organizador-p-gaveta-25x8cm-em-plastico-uz"
+  },
+  {
+    "id": 123,
+    "nome": "Caneca de Vidro Âmbar 190ml Linha Roma — Kehome",
+    "categoria": "Canecas",
+    "preco": 18.90,
+    "precoAntigo": null,
+    "descricao": "Caneca em Vidro Âmbar 190ml Linha Roma Kehome. Design clássico em relevo com pé elegante para valorizar o café.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148807/4bac1f44b28c4cdca77d5fcd297b6e8f-lrs46ie3q8.jpg"
+    ],
+    "video": "",
+    "estoque": 6,
+    "destaque": true,
+    "tags": ["caneca", "ambar", "roma", "kehome"],
+    "linkSite": "https://www.a2decor.com.br/caneca-de-vidro-ambar-190ml-linha-roma--kehome"
+  },
+  {
+    "id": 124,
+    "nome": "Caneca em Vidro Borossilicato 280ml Estampa Coração — Lyor",
+    "categoria": "Canecas",
+    "preco": 27.90,
+    "precoAntigo": null,
+    "descricao": "Caneca em Vidro Borossilicato 280ml Lyor com delicada estampa de corações, resistente ao calor e muito leve.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148933/7e898c6d56ec4c6daabc7216b4de7853-iqkrx70af5.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148933/d18f3ffabd8a4cd89e382701dd6557a8-ykmg1y7zld.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148933/94606b6e84fb44b89cdd209284796cc5-wargkwgmer.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148933/1ebf939b52754dda87b96bfa1fc657f9-v8abp3n4s4.jpg"
+    ],
+    "video": "",
+    "estoque": 3,
+    "destaque": false,
+    "tags": ["caneca", "borossilicato", "coracao", "lyor"],
+    "linkSite": "https://www.a2decor.com.br/caneca-em-vidro-borossilicato-280ml-estampa-coracao--lyor"
+  },
+  {
+    "id": 125,
+    "nome": "Spray Borrifador para Azeite e Óleo 200ml em Vidro — Lívon",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 19.90,
+    "precoAntigo": null,
+    "descricao": "Spray Borrifador de Azeite e Tempero 200ml em Vidro Lívon. Pulveriza névoa fina ideal para saladas, grelhados e Air Fryer.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148987/86cf4d5d71914b738c421128b339b9f1-bmjtu2muf2.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404148987/7da37e1db9654804b339087a63165fd9-5kj2tlmxjc.jpg"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": false,
+    "tags": ["borrifador", "spray", "azeite", "livon"],
+    "linkSite": "https://www.a2decor.com.br/spray-borrifador-para-azeite-e-oleo-200ml-em-vidro--livon"
+  },
+  {
+    "id": 126,
+    "nome": "Galheteiro 2 em 1 de Vidro 410ml com Borrifador Spray Preto — Fu Xing",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 49.90,
+    "precoAntigo": null,
+    "descricao": "Galheteiro 2 em 1 em Vidro 410ml Fu Xing Preto com sistema duplo de borrifador spray e bico dosador tradicional.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174153/5b7436e24a60480aaa71caaa09cbcdde-rfsd4eeio9.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174153/59ca8b16c06348c8a88f4d6ceed517c0-1dr32b2ix7.jpg"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": true,
+    "tags": ["galheteiro 2 em 1", "borrifador", "fu xing", "cozinha"],
+    "linkSite": "https://www.a2decor.com.br/galheteiro-2-em-1-de-vidro-410ml-com-borrifador-spray-preto--fu-xing"
+  },
+  {
+    "id": 127,
+    "nome": "Coador de Café Inox Reutilizável com Suporte 7,5x11cm — Koya",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 39.90,
+    "precoAntigo": null,
+    "descricao": "Coador de Café Reutilizável em Aço Inox 7,5x11cm Koya com abas retráteis de suporte para xícara e caneca.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174424/6f2cb6d153b34183be3d0b91bed87c37-9dkqz75b67.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174424/02c33b0e732c46278f5f2e6763ce5e42-89ww3r80w7.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["coador", "inox", "koya", "suporte"],
+    "linkSite": "https://www.a2decor.com.br/coador-de-cafe-inox-reutilizavel-com-suporte-75x11cm--koya"
+  },
+  {
+    "id": 128,
+    "nome": "Açucareiro em Cristal com Colher Lavanda Hand Painting 8,5x11,3cm — Lyor",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 39.90,
+    "precoAntigo": null,
+    "descricao": "Açucareiro de Cristal Lavanda Hand Painting Lyor 8,5x11,3cm com colher de cristal e estampa de lavandas pintadas à mão.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174587/1da60c2c5d394cab9d4adad3229f8592-to21hym3l2.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174587/91054c5e224940439f6ca08f29fb714b-nwpf3bxhbw.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174587/23ffda3257b848e598a2e3eb22de429c-7ig0px3qx5.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404174587/8f658bd2978048aa9a035d8cd6b90db5-zqetc8v49o.jpg"
+    ],
+    "video": "",
+    "estoque": 0,
+    "destaque": true,
+    "tags": ["acucareiro", "lavanda", "lyor", "cristal"],
+    "linkSite": "https://www.a2decor.com.br/acucareiro-em-cristal-com-colher-lavanda-hand-painting-85x113cm--lyor"
+  },
+  {
+    "id": 129,
+    "nome": "Manteigueira Francesa em Cristal Lavanda Hand Painting 9,4x9,8cm — Lyor",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 49.90,
+    "precoAntigo": null,
+    "descricao": "Manteigueira Francesa de Cristal Lavanda Hand Painting Lyor 9,4x9,8cm. Sistema de água que conserva a manteiga sempre cremosa fora da geladeira.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198591/27f11dc1fe27410c9485ef71b89c28b3-qes6uwusdl.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198591/56b4dbddd8c54a59ac97a36a10be23a5-lh4vgjeme9.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198591/12efb39ac42a4ea7a30e1a9e3257e6b9-g2442gg6py.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198591/21427a85925941a984d134f52bc7adba-u07g6h1fpy.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["manteigueira francesa", "lavanda", "lyor", "cristal"],
+    "linkSite": "https://www.a2decor.com.br/manteigueira-francesa-em-cristal-lavanda-hand-painting-94x98cm--lyor"
+  },
+  {
+    "id": 130,
+    "nome": "Jogo de Taças para Sobremesa Vidro 6 Peças 160ml — Lívon",
+    "categoria": "Taças",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças para Sobremesa de Vidro 6 Peças 160ml Lívon com textura trabalhada e base pedestal.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198739/1b4b69569a824a2bb8eb30f282b0d65b-9cyd8hja2z.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198739/861868485c6747968a6b5d406edc1dd4-o7fto21pi8.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["tacas", "sobremesa", "livon", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-para-sobremesa-vidro-6-pecas-160ml--livon"
+  },
+  {
+    "id": 131,
+    "nome": "Queijeira de Cristal com Tampa New Butterfly 19,5x12,5cm — Lyor",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Queijeira de Cristal New Butterfly 19,5x12,5cm Lyor com prato trabalhado e pegador em forma de borboleta na tampa.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198870/f5651761e0ba49719069c625989c42da-bmctfll5i5.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198870/ef80262b7a2f4073bd99af039ceda1a0-vt6hd78wt2.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198870/e4258046d4044a40bbc0e9f95ddf14a8-or9w1mhxyk.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404198870/464ff1961b684539a9ed3611fd560b42-0w030c935v.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["queijeira", "new butterfly", "lyor", "cristal"],
+    "linkSite": "https://www.a2decor.com.br/queijeira-de-cristal-com-tampa-new-butterfly-195x125cm--lyor"
+  },
+  {
+    "id": 132,
+    "nome": "Jogo de Taças para Água e Vinho Vidro Diamante 6 Peças 340ml — Original",
+    "categoria": "Taças",
+    "preco": 59.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças para Água e Vinho 340ml Diamante Original (6 peças) em vidro trabalhado espesso de alta durabilidade.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404199098/3bb365eab7464f3f9fd4f99d626a6417-u5hh86xr0k.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404199098/2d94a51cb39a44ddb52b4e652b8acdb9-aastjzt927.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["tacas", "diamante", "agua e vinho", "original"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-para-agua-e-vinho-vidro-diamante-6-pecas-340ml--original"
+  },
+  {
+    "id": 133,
+    "nome": "Jogo de Taças para Vinho em Cristal Ecológico 6 Peças 460ml — Fullfit",
+    "categoria": "Taças",
+    "preco": 269.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Taças para Vinho 460ml em Cristal Ecológico Fullfit (6 peças). Acabamento transparente e brilho cristalino refinado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404199305/02a8f5cb70f0470c88af1b5f7f3a3568-x2xawtz6ny.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404199305/059d944e145c4ec4a419ec9c179a1a91-qa70p0g30s.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["tacas vinho", "cristal ecologico", "fullfit"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-tacas-para-vinho-em-cristal-ecologico-6-pecas-460ml--fullfit"
+  },
+  {
+    "id": 134,
+    "nome": "Jogo de Xícaras para Café em Cristal 85ml com Pires Coração Pearl 8 Peças — Rojemac",
+    "categoria": "Xícaras",
+    "preco": 69.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras em Cristal 85ml com Pires em formato de Coração Linha Pearl Rojemac (4 Xícaras + 4 Pires).",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404229781/3d87433ae9f34411a3f6cdb05fd38aba-k550gk37lk.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404229781/d47875f3faa04c468e73aba22e82cd44-0cq14rmum7.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404229781/86c5513726e94998bb2db7012a7511b7-z5li2isra6.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404229781/061fc1120cb74c7ea9751f3a3c2e20e7-bpp6uiccfe.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404229781/016a0db8d3a64e2f9c7e9a45ead563e3-qjhtqqtume.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["xicara", "pires coracao", "pearl", "rojemac", "cristal"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-para-cafe-em-cristal-85ml-com-pires-coracao-pearl-8-pecas--rojemac"
+  },
+  {
+    "id": 135,
+    "nome": "Kit para Churrasco Tramontina Churrasco Black com Lâminas de Aço Inox Escurecido e Cabos de Madeira 05 Peças",
+    "categoria": "Kits e Conjuntos",
+    "preco": 549.90,
+    "precoAntigo": 697.00,
+    "descricao": "Kit Tramontina Churrasco Black 5 Peças com lâminas em aço inox escurecido, garra para carne e estojo com suporte em madeira.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404283772/174b2ae4059e4f1698eb120f7633d320-lcs6wfcb0z.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404283772/d056b32a7b6a479380723cde73e08524-pcc3mu6gss.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404283772/b217e1f4147044779e0431040b3a4b94-srhhrk7fp3.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404283772/cfcf90246d1b4461a562087a18d467fe-7y5c1prou4.jpg"
+    ],
+    "video": "https://www.youtube.com/watch?v=E3JYQESBLc4",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["churrasco black", "tramontina", "inox escurecido", "kit churrasco"],
+    "linkSite": "https://www.a2decor.com.br/kit-para-churrasco-tramontina-churrasco-black-com-laminas-de-aco-inox-escurecido-e-cabos-de-madeira-05-pecas"
+  },
+  {
+    "id": 136,
+    "nome": "Jogo de Xícaras para Chá e Café em Cristal 180ml com Pires Coração Pearl 8 Peças — Rojemac",
+    "categoria": "Xícaras",
+    "preco": 139.00,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras em Cristal 180ml com Pires em formato de Coração Pearl Wolff/Rojemac (4 Xícaras + 4 Pires).",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404379839/9d4abcc0068240788ebab9535e27cb10-bsh0t3k1v0.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404379839/a4f50556ebf34ccaba9919bca501d39e-c6wmva2nig.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404379839/9e48ff44c8cc4427a640314143bbd383-af7rcaus8j.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404379839/3a44f92c16154967bccaeb2edc59fbcd-3ts9k6px8e.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404379839/50a90b55e425471ea4684bdd0499b523-aph5nr9jj1.jpg"
+    ],
+    "video": "https://www.youtube.com/watch?v=X0XRXRDWrEw",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["xicara", "pires coracao", "pearl", "wolff", "cristal"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-para-cha-e-cafe-em-cristal-180ml-com-pires-coracao-pearl-8-pecas--rojemac"
+  },
+  {
+    "id": 137,
+    "nome": "Jogo de Forma Airfryer Descartável 20cm em Papel WS Comercio",
+    "categoria": "Utensílios de Cozinha",
+    "preco": 19.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Forma Descartável para Airfryer 20cm Fu Xing (50 Peças). Papel impermeável e antiaderente que mantém a fritadeira limpa.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404389752/a742970a9efe4315845da9cf13bb6aac-gglcwvifcb.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["forma airfryer", "descartavel", "fu xing", "papel"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-forma-airfryer-descartavel-20cm-em-papel-ws-comercio"
+  },
+  {
+    "id": 138,
+    "nome": "Jogo De Xícaras Imperial Ouro 90ml 12 Peças em Vidro Amigold",
+    "categoria": "Xícaras",
+    "preco": 109.90,
+    "precoAntigo": null,
+    "descricao": "Jogo de Xícaras e Pires de Vidro 90ml com Borda Dourada Imperial (6 Xícaras + 6 Pires) em vidro reluzente.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404389985/46f2586e1dbf42e99557a9bffb43e70e-9wzifjuxmw.jpeg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404389985/514f7ed33dc34321854032fea8f7edb1-jbex4llbh4.jpeg"
+    ],
+    "video": "https://www.youtube.com/watch?v=1OAtJPtN8Zg",
+    "estoque": 1,
+    "destaque": true,
+    "tags": ["xicara", "imperial ouro", "amigold", "borda dourada"],
+    "linkSite": "https://www.a2decor.com.br/jogo-de-xicaras-imperial-ouro-90ml-12-pecas-em-vidro-amigold"
+  },
+  {
+    "id": 139,
+    "nome": "Caneca de Natal Ceramica com Pires Papai Noel 3D e Colher",
+    "categoria": "Canecas",
+    "preco": 79.90,
+    "precoAntigo": null,
+    "descricao": "Kit Caneca de Natal Merry Christmas em Cerâmica com Pires em relevo 3D do Papai Noel e colher em inox decorada.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404397574/01415c2ec2364b809258b3eb45d3257c-n7c78a0ujw.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404397574/fe0d7dcfe93a4ae6971a7012927a42b2-ujshiwr1ny.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404397574/c949f87df5de49a7ab54a377575c70bc-8whuj1ybrr.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404397574/9401a76acc18497d8227b5a4cd6ae31f-meig5ub74c.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["caneca natal", "papai noel 3d", "ceramica", "presente"],
+    "linkSite": "https://www.a2decor.com.br/caneca-de-natal-ceramica-com-pires-papai-noel-3d-e-colher"
+  },
+  {
+    "id": 140,
+    "nome": "Jarra de Vidro 1,3 Litros Imperial Clear — Amigold",
+    "categoria": "Jarras",
+    "preco": 72.90,
+    "precoAntigo": null,
+    "descricao": "Jarra de Vidro Imperial Clear 1,3L Amigold com relevo trabalhado e estrutura em vidro espesso.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404421347/84419eebbeca47e6b57e447521b0ce84-sz9m7idtby.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["jarra", "imperial clear", "amigold", "vidro"],
+    "linkSite": "https://www.a2decor.com.br/jarra-de-vidro-13-litros-imperial-clear--amigold"
+  },
+  {
+    "id": 141,
+    "nome": "Prateleira de Canto Aramado em Metal Preto 35x5cm — Livon",
+    "categoria": "Organização",
+    "preco": 27.99,
+    "precoAntigo": null,
+    "descricao": "Prateleira de Canto Aramado em Metal Preto 35x5cm Livon para otimização de espaço em banheiros e cozinhas.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404425416/644b7f03b9e14d65b5d31b04fe2640f4-j3o4rhabqa.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404425416/a2b791f329724ceb8d644e0c34081ae9-9tjn3k6ny6.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["prateleira canto", "aramado", "livon", "organizador"],
+    "linkSite": "https://www.a2decor.com.br/prateleira-de-canto-aramado-em-metal-preto-35x5cm--livon"
+  },
+  {
+    "id": 142,
+    "nome": "Kit para Banheiro e Lavabo 3 Peças em Vidro Preto e Bambu — Sanxia",
+    "categoria": "Kits e Conjuntos",
+    "preco": 99.90,
+    "precoAntigo": null,
+    "descricao": "Kit para Banheiro 3 Peças em Vidro Preto e Bambu Sanxia com porta-sabonete líquido, copo e bandeja organizadora.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404425550/0da5bba3e4d54826ab5f08181b0fa5c5-11bmxfd9iv.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404425550/f9ccb645342b4330a1962218a930b680-krv8y51193.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["kit banheiro", "vidro preto", "bambu", "sanxia"],
+    "linkSite": "https://www.a2decor.com.br/kit-para-banheiro-e-lavabo-3-pecas-em-vidro-preto-e-bambu--sanxia"
+  },
+  {
+    "id": 143,
+    "nome": "Kit para Banheiro e Lavabo 2 Peças em Porcelana — Sanxia",
+    "categoria": "Kits e Conjuntos",
+    "preco": 89.90,
+    "precoAntigo": null,
+    "descricao": "Kit para Banheiro 2 Peças em Porcelana Sanxia com porta-sabonete líquido e porta-escovas de dente.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404425711/e6c1e6920acd41f3b56e23274e8f2c84-jayul3duy1.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["kit banheiro", "porcelana", "sanxia", "lavabo"],
+    "linkSite": "https://www.a2decor.com.br/kit-para-banheiro-e-lavabo-2-pecas-em-porcelana--sanxia"
+  },
+  {
+    "id": 144,
+    "nome": "Estátua Decorativa Gato em Porcelana 13cm — Interponte",
+    "categoria": "Decoração",
+    "preco": 21.90,
+    "precoAntigo": null,
+    "descricao": "Estátua Decorativa de Gato em Porcelana 13cm Interponte com acabamento moderno e minimalista.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404426080/97492b4c0d9b43ccb6c5639aa6f86be8-7hu2rucg46.webp"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["estatua", "gato", "porcelana", "interponte", "decoracao"],
+    "linkSite": "https://www.a2decor.com.br/estatua-decorativa-gato-em-porcelana-13cm--interponte"
+  },
+  {
+    "id": 145,
+    "nome": "Pássaro Decorativo em Porcelana 7cm — Freecon",
+    "categoria": "Decoração",
+    "preco": 9.90,
+    "precoAntigo": null,
+    "descricao": "Pássaro Decorativo em Porcelana 7cm Freecon com acabamento esmaltado brilhante.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427026/9e4e8d976a1f4774a5c737e7bd19195b-ygsedm6qkl.webp"
+    ],
+    "video": "",
+    "estoque": 3,
+    "destaque": false,
+    "tags": ["passaro", "porcelana", "freecon", "decoracao"],
+    "linkSite": "https://www.a2decor.com.br/passaro-decorativo-em-porcelana-7cm--freecon"
+  },
+  {
+    "id": 146,
+    "nome": "Pássaro Decorativo em Cerâmica 4x3,8cm — Fu Xing",
+    "categoria": "Decoração",
+    "preco": 9.90,
+    "precoAntigo": null,
+    "descricao": "Pássaro Decorativo em Cerâmica 4x3,8cm Fu Xing com acabamento branco esmaltado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427098/23a0c7bd2f1a4dd2948a6b7599f090ec-wdti2xzetk.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427098/787ce13f877a4cdd8d9d62d245d28883-tdgqh04vea.webp"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["passaro", "ceramica", "fu xing", "decoracao"],
+    "linkSite": "https://www.a2decor.com.br/passaro-decorativo-em-ceramica-4x38cm--fu-xing"
+  },
+  {
+    "id": 147,
+    "nome": "Pássaro Decorativo em Porcelana Perolizado 7x8,8cm — Fu Xing",
+    "categoria": "Decoração",
+    "preco": 18.90,
+    "precoAntigo": null,
+    "descricao": "Pássaro Decorativo em Porcelana Perolizado 7x8,8cm Fu Xing com elegante brilho nacarado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427147/e4f62de9f0a3419f9e03fb6436a67562-bnqkim8tzj.webp",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427147/ac5172a6243f40c787035b88a2f14e3c-h99dtunaul.webp"
+    ],
+    "video": "",
+    "estoque": 2,
+    "destaque": false,
+    "tags": ["passaro", "perolizado", "porcelana", "fu xing"],
+    "linkSite": "https://www.a2decor.com.br/passaro-decorativo-em-porcelana-perolizado-7x88cm--fu-xing"
+  },
+  {
+    "id": 148,
+    "nome": "Kit para Banheiro e Lavabo 2 Peças em Porcelana com Difusor Branco e Dourado — Amigold",
+    "categoria": "Kits e Conjuntos",
+    "preco": 89.90,
+    "precoAntigo": null,
+    "descricao": "Kit para Banheiro 2 Peças em Porcelana Amigold com Porta-Sabonete e Difusor de Aromas em acabamento branco e dourado.",
+    "imagens": [
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427641/58ee652edbb34541b79779bdb5c34c3b-bc0neabccy.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427641/198e90e12577430088a5f05b06fdda83-2wsn4t37rr.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427641/e8c441bc14ee447b99209c8a016cfb50-21mhn1kslh.jpg",
+      "https://cdn.awsli.com.br/3064/3064005/produto/404427641/91a2929eac8a42a7aece834dcc7ae315-8i2befozlq.jpg"
+    ],
+    "video": "",
+    "estoque": 1,
+    "destaque": false,
+    "tags": ["kit banheiro", "difusor", "amigold", "branco e dourado"],
+    "linkSite": "https://www.a2decor.com.br/kit-para-banheiro-e-lavabo-2-pecas-em-porcelana-com-difusor-branco-e-dourado--amigold"
   }
 ]
+

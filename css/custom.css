@@ -38,7 +38,7 @@
   overflow: hidden;
 }
 
-/* ── Imagem do modal com aspect-square consistente ───────────────────────── */
+/* ── Mídia do modal ──────────────────────────────────────────────────────── */
 #midia-principal iframe {
   width: 100%;
   height: 100%;
@@ -50,5 +50,32 @@
   outline-offset: 2px;
 }
 
-/* ── Print: esconde UI desnecessária ────────────────────────────────────── */
-/* O PDF é gerado em janela dedicada — nada precisa ser ocultado aqui */
+/* ── Impressão Direta (Suporte Nativo) ───────────────────────────────────── */
+@media print {
+  /* Oculta elementos de navegação e controles da UI ao imprimir a tela principal */
+  header,
+  #filtros-section,
+  #paginacao,
+  #btn-imprimir,
+  .ver-mais,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  #grid-produtos {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  .produto-card {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #e5e7eb !important;
+  }
+}
